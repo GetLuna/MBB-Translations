@@ -701,19 +701,19 @@ $lang = array(
 // Administration stuff
 //
 
-'Group membership legend'		=>	'Choose user group',
-'Save'							=>	'Save',
-'Set mods legend'				=>	'Set moderator access',
-'Moderator in info'				=>	'Choose which forums this user should be allowed to moderate. Note: This only applies to moderators. Administrators always have full permissions in all forums.',
-'Update forums'					=>	'Update forums',
-'Delete ban legend'				=>	'Delete or ban user',
-'Delete user'					=>	'Delete user',
-'Ban user'						=>	'Ban user',
-'Confirm delete user'			=>	'Confirm delete user',
-'Confirmation info'				=>	'Please confirm that you want to delete the user', // the username will be appended to this string
-'Delete warning'				=>	'Warning! Deleted users and/or posts cannot be restored. If you choose not to delete the posts made by this user, the posts can only be deleted manually at a later time.',
-'Delete all posts'				=>	'Delete any posts and topics this user has made',
-'No delete admin message'		=>	'Administrators cannot be deleted. In order to delete this user, you must first move him/her to a different user group.',
+'Group membership legend'		=>	'Zgjidh grupin për përdorues',
+'Save'							=>	'Ruaje',
+'Set mods legend'				=>	'Vendos qasje për moderator',
+'Moderator in info'				=>	'Zgjidh cilat forume i lejohet të moderoj. Shenim: Kjo aplikohet vetëm për moderatoret. Administratorët kan gjithmon të gjitha mundesit në forum.',
+'Update forums'					=>	'Fresko forumet',
+'Delete ban legend'				=>	'Shlyej ose përjashto përdoruesin',
+'Delete user'					=>	'Shlyeje përdoruesin',
+'Ban user'						=>	'Përjashto përdoruesin',
+'Confirm delete user'			=>	'Konfirmo shlyerjen e përdoruesit',
+'Confirmation info'				=>	'Ju lutem konfirmo që deshironi ta shlyeni përdoruesin', // the username will be appended to this string
+'Delete warning'				=>	'Lajmërim! Shlyejerja përdoruesit ose postimit nuk mund të zhbëhet më. Nese zgjidhni që të mos shlyhen postimet e keti përdoruesit, postimet mund të shlyhen manualisht më vonë.',
+'Delete all posts'				=>	'Shlyej çfardo postimi apo teme të bërë nga ky përdorues',
+'No delete admin message'		=>	'Administratorët s\'mund të shlyhet. Në menyr që të shlyhet ky përdorues, ju së pari duhet ta levizni së pari atë në një grup tjetër.',
 
 //
 // Language for register.php
