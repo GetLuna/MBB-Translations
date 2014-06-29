@@ -863,8 +863,8 @@ $lang = array(
 // Language for bans.php
 //
 
-'No user message'			=>	'No user by that username registered. If you want to add a ban not tied to a specific username just leave the username blank.',
-'No user ID message'		=>	'No user by that ID registered.',
+'No user message'			=>	'Asnjë përdorues me këtë emër/nofkë nuk eshte i regjistruar. Nese deshironi të vendosëni perjashtime nga ky emër lejen fushen të zbrazët.',
+'No user ID message'		=>	'Asnjë përdorues nuk eshte i regjistruar me këtë ID.',
 'User is admin message'		=>	'The user %s is an administrator and can\'t be banned. If you want to ban an administrator, you must first demote him/her.',
 'User is mod message'		=>	'The user %s is a moderator and can\'t be banned. If you want to ban a moderator, you must first demote him/her.',
 'Must enter message'		=>	'You must enter either a username, an IP address or an email address (at least).',
