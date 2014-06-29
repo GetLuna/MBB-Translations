@@ -719,65 +719,65 @@ $lang = array(
 // Language for register.php
 //
 
-'No new regs'				=>	'This forum is not accepting new registrations.',
-'Forum rules'				=>	'Forum rules',
-'Rules legend'				=>	'You must agree to the following in order to register',
-'Registration flood'		=>	'A new user was registered with the same IP address as you within the last hour. To prevent registration flooding, at least an hour has to pass between registrations from the same IP. Sorry for the inconvenience.',
-'Agree'						=>	'Agree',
-'Cancel'					=>	'Cancel',
-'Register legend'			=>	'Enter the requested data',
+'No new regs'				=>	'Fourmi nuk pranon regjistrime të reja për momentin.',
+'Forum rules'				=>	'Rregullorja e forumit',
+'Rules legend'				=>	'Ti duhet ti pranosh këto rregulla para se të regjistrohesh',
+'Registration flood'		=>	'Nji përdorues i ri është regjistruar nga e njetja IP mrena një ore. Për të parandaluar regjistrimet e një pas njëshme, së paku duhet të kaloj një orë nga regjistrimi në regjistrim nga e njetja IP. Na falni për shqetesimin.',
+'Agree'						=>	'Pranoj',
+'Cancel'					=>	'Anulo',
+'Register legend'			=>	'Ploteso të dhënat e kërkuara',
 
 //
 // Form validation stuff (some of these are also used in post.php)
 //
 
-'Registration errors'		=>	'Registration errors',
-'Username censor'			=>	'The username you entered contains one or more censored words. Please choose a different username.',
-'Username dupe 1'			=>	'Someone is already registered with the username',
-'Username dupe 2'			=>	'The username you entered is too similar. The username must differ from that by at least one alphanumerical character (a-z or 0-9). Please choose a different username.',
-'Email not match'			=>	'Email addresses do not match.',
+'Registration errors'		=>	'Gabim në regjistrim',
+'Username censor'			=>	'Emrin/Nofken që ju keni zgjedhur përmban fjalë që është në listen e cenzures. Ju lutem zgjidhni një Emër/Nofkë tjetër.',
+'Username dupe 1'			=>	'Dikush tjetër është tanime i regjistruar me këtë Emër/Nofkë',
+'Username dupe 2'			=>	'Emëri/Nofka që keni zgjedhur është shumë homogjen. Emëri/Nofka duhët të jetë ose përmbaj diferenc të numërave ose karaktereve (a-z ose 0-9). Ju lutem zgjedhni një psoudenim tjetër.',
+'Email not match'			=>	'Email adresa nuk konsiston.',
 
 //
 // Registration email stuff
 //
 
-'Reg email'					=>	'Thank you for registering. Your password has been sent to the specified address. If it doesn\'t arrive you can contact the forum administrator at',
+'Reg email'					=>	'Falēmenderit për regjistrimin. Fjalëkalimi iu është dërguar në adresen e specifikuar. Nese letra nuk arrinë kontaktoni administratorin e forumit tek',
 
 //
 // Register info
 //
 
-'Username legend'			=>	'Enter a username between 2 and 25 characters long',
-'Email help info'			=>	'Your password will be sent to this address, make sure it\'s valid',
-'If human'					=>	'If you are human please leave this field blank!',
-'Spam catch'				=>	'Unfortunately it looks like your request is spam. If you feel this is a mistake, please direct any inquiries to the forum administrator at',
+'Username legend'			=>	'Përzgjidh Psoudenimin në mes 2 apo 25 karaktereve të gjatë',
+'Email help info'			=>	'Fjalëkalimi juaj do të dërgohet në email adresen tuaj, sigurohuni që është valide',
+'If human'					=>	'Nese ju jeni human ju lutem lerëni këtë fush bosh!',
+'Spam catch'				=>	'Fatëkeqsisht duket se kërkesa juaj është spam-. Nese mendoni së është gabim, Ju lutem drejtoni shqetesimet tua tek administratori tek',
 
 //
 // Language for search.php
 //
 
-'User search'						=>	'User search',
-'No search permission'				=>	'You do not have permission to use the search feature.',
-'Search flood'						=>  'At least %s seconds have to pass between searches. Please wait %s seconds and try searching again.',
-'Search criteria legend'			=>	'Enter your search criteria',
-'Search info'						=>	'To search by keyword, enter a term or terms to search for. Separate terms with spaces. Use AND, OR and NOT to refine your search. To search by author enter the username of the author whose posts you wish to search for. Use wildcard character * for partial matches.',
-'Keyword search'					=>	'Keyword search',
-'Author search'						=>	'Author search',
-'All forums'						=>	'All forums',
-'Search in'							=>	'Search in',
-'Message and subject'				=>	'Message text and topic subject',
-'Message only'						=>	'Message text only',
-'Topic only'						=>	'Topic subject only',
-'Sort by'							=>	'Sort by',
-'Sort order'						=>	'Sort order',
-'Search results info'				=>	'You can choose how you wish to sort and show your results.',
-'Sort by post time'					=>	'Post time',
-'Sort by author'					=>	'Author',
-'Ascending'							=>	'Ascending',
-'Descending'						=>	'Descending',
-'Show as'							=>	'Show as',
-'Show as posts'						=>	'Posts',
-'Advanced search'					=>	'Advanced search',
+'User search'						=>	'Kërkim i përdoruesve',
+'No search permission'				=>	'Ju nuk keni lejueshmeri të kërkoni këtë voçori.',
+'Search flood'						=>  'Së paku prisni %s sekonda nga kërkimi në kërkim. Ju lutem prisni %s sekonda dhe provo të kërkosh prap.',
+'Search criteria legend'			=>	'Shtyp kriteret që dëshironi të kërkoni',
+'Search info'						=>	'Për të kërkuar me fjalë kyqçe, shtyp një term për terminlogjinë. ndaj termet me hapsirë. përdor DHE, OSE dhe JO për ta rafinuar kërkimin tuaj. Për të kërkuar një material nga autori shtyp emrin e përdoruesit. përdor karaktere te tilla si * për ngjajshmëri të pjesëshme.',
+'Keyword search'					=>	'Kërko fjalë kyçe',
+'Author search'						=>	'Kërko autorë',
+'All forums'						=>	'Të gjitha forumet',
+'Search in'							=>	'Kërko në',
+'Message and subject'				=>	'Tekstin në mesazh dhe tema apo subjekt',
+'Message only'						=>	'Vetëm mesazhet në tekst',
+'Topic only'						=>	'Vetëm subjektet e temave',
+'Sort by'							=>	'Rendit nga',
+'Sort order'						=>	'Renditje e rregullt',
+'Search results info'				=>	'Ti mund të zgjedhësh se si renditen dhe si të shfaqen rezultatet.',
+'Sort by post time'					=>	'Koha e postimit',
+'Sort by author'					=>	'Autori',
+'Ascending'							=>	'Nga lart poshtë',
+'Descending'						=>	'Nga lart poshtë',
+'Show as'							=>	'Shfaq si',
+'Show as posts'						=>	'Postimet',
+'Advanced search'					=>	'Kërkim i avancuar',
 
 //
 // Results
