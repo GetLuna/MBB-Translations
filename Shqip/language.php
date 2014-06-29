@@ -835,29 +835,29 @@ $lang = array(
 // Language for userlist.php
 //
 
-'User search info'	=>	'Enter a username to search for and/or a user group to filter by. Use the wildcard character * for partial matches.',
-'User group'		=>	'User group',
-'No of posts'		=>	'Number of posts',
-'All users'			=>	'All users',
+'User search info'	=>	'Shtyp emërin e përdoruesit për të kerkuar një grup apo filtrosh ndonje në veçanti. Përdor karaktere si * për përputhje parciale.',
+'User group'		=>	'Grupi i përdoruesit',
+'No of posts'		=>	'Numëri i postimeve',
+'All users'			=>	'Të gjithë anëtarët',
 
 //
 // Language for viewforum.php
 //
 
-'Views'			=>	'Views',
-'Moved'			=>	'Moved',
-'Star'			=>	'Star',
-'Sticky'		=>	'Sticky',
-'Closed'		=>	'Closed',
-'Empty forum'	=>	'Forum is empty.',
+'Views'			=>	'Shikimet',
+'Moved'			=>	'Lëvizur',
+'Star'			=>	'Yll',
+'Sticky'		=>	'Ngjitëse',
+'Closed'		=>	'E Mbyllur',
+'Empty forum'	=>	'Forumi është bosh.',
 
 //
 // Language for Backstage
 // Language for backstage.php
 //
 
-'Update settings head'		=>	'Update settings',
-'Index update check'		=>	'Check for updates every time the Backstage index is visited, if disabled, you won\'t see update notifications.',
+'Update settings head'		=>	'Përditëso cilsimet',
+'Index update check'		=>	'Shiko për përditsime çdoherë që vizitohet Prapaskena, nese s\'është aktive, ti nuk mund të shohesh apo njoftohesh për përditsime.',
 
 //
 // Language for bans.php
