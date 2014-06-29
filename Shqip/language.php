@@ -67,7 +67,6 @@ $lang = array(
 'Moderated by'						=>	'I moderuar nga',
 'Registered table'					=>	'Të regjistruarit',
 'Subject'							=>	'Subjekti',
-'Start typing'                      =>  'Fillo të shtypësh...',
 'Message'							=>	'Mesazhi',
 'Topic'								=>	'Tema',
 'Forum'								=>	'Forum',
