@@ -619,40 +619,40 @@ $lang = array(
 // Email stuff
 //
 
-'Email key bad'					=>	'The specified email activation key was incorrect or has expired. Please re-request change of email address. If that fails, contact the forum administrator at',
-'Email updated'					=>	'Your email address has been updated.',
-'Activate email sent'			=>	'An email has been sent to the specified address with instructions on how to activate the new email address. If it doesn\'t arrive you can contact the forum administrator at',
-'Email instructions'			=>	'An email will be sent to your new address with an activation link. You must click the link in the email you receive to activate the new address.',
-'Change email'					=>	'Change email address',
-'New email'						=>	'New email',
+'Email key bad'					=>	'Email adresen që keni shtypur s\'është e sakt ose ka skaduar. Ju lutem ribëni hapin per të ndryshuar email-in prap. Nese edhe kjo deshton, kontakto administratorin tek',
+'Email updated'					=>	'Email adresa juaj u përditësua.',
+'Activate email sent'			=>	'Një letër është dërguar ne email-in tuaj me instrukcione se si ta aktivizoni email-in e ri. Nese ajo letër nuk arrin ju mund ta kontaktoni administratorin e forumit',
+'Email instructions'			=>	'Një letër me lidhjen/linkun për aktivizim iu është dërguar në email-in tuaj. Ju duhet të klikoni në lidhjen për të marrë letëren për aktivizimin e email-it të ri.',
+'Change email'					=>	'Ndrysho email adresën',
+'New email'						=>	'Email të ri',
 
 //
 // Avatar upload stuff
 //
 
-'Avatars disabled'				=>	'The administrator has disabled avatar support.',
-'Too large ini'					=>	'The selected file was too large to upload. The server didn\'t allow the upload.',
-'Partial upload'				=>	'The selected file was only partially uploaded. Please try again.',
-'No tmp directory'				=>	'PHP was unable to save the uploaded file to a temporary location.',
-'No file'						=>	'You did not select a file for upload.',
-'Bad type'						=>	'The file you tried to upload is not of an allowed type. Allowed types are gif, jpeg and png.',
-'Too wide or high'				=>	'The file you tried to upload is wider and/or higher than the maximum allowed',
-'Too large'						=>	'The file you tried to upload is larger than the maximum allowed',
+'Avatars disabled'				=>	'Administratori e ka çaktivizuar mbështetjën e avatarit.',
+'Too large ini'					=>	'Skeda e përzgjedhur është shumë e madhe për tu ngarkuar. Dhe serveri nuk e lejoj të ngarkohet.',
+'Partial upload'				=>	'Skeda e përzgjedhur është ngarkuar vetëm pjesërisht. Ju lutem provojeni përseri.',
+'No tmp directory'				=>	'PHP e kishte të pa mundur për ta ruajtur skeden e ngarkuar në një lokacion të përkohëshëm.',
+'No file'						=>	'Ju nuk zgjodhet ndonjê sked për ta ngarkuar.',
+'Bad type'						=>	'Skeda që dëshironi ta ngarkoni nuk është e tipit që lejohet. Tipet që lejohen/përkrahen janë gif, jpeg and png.',
+'Too wide or high'				=>	'Skeden që ju dëshironi ta ngarkoni është mbi maksimumin e hapsirës që lejohet ose ka diçka të quditshme ketu',
+'Too large'						=>	'Skeda qe ju dëshironi ta ngarkoni është më e madhe se sa që është e lejushme',
 'pixels'						=>	'pixels',
 'bytes'							=>	'bytes',
-'Move failed'					=>	'The server was unable to save the uploaded file. Please contact the forum administrator at',
-'Unknown failure'				=>	'An unknown error occurred. Please try again.',
-'Avatar desc'					=>	'An avatar is a small image that will be displayed under your username in your posts. It must not be any bigger than',
-'Upload avatar'					=>	'Upload avatar',
-'Delete avatar'					=>	'Delete avatar', // only for admins
-'File'							=>	'File',
-'Upload'						=>	'Upload', // submit button
+'Move failed'					=>	'Serveri nuk ishte në gjendje të ngarkoj sekden. Ju lutem kontaktoni administratorin tek',
+'Unknown failure'				=>	'Një gabim i panjohur. Provojeni përseri.',
+'Avatar desc'					=>	'Nji avatar është një fotografi e vockel që do të shfaqet ndër Emrin/Nofken tuaj në postime. Nuk duhet të jetë më e madhe se',
+'Upload avatar'					=>	'Ngarko avatarin',
+'Delete avatar'					=>	'Shlyej avatarin', // only for admins
+'File'							=>	'Skeda',
+'Upload'						=>	'Ngarko', // submit button
 
 //
 // Form validation stuff
 //
 
-'Forbidden title'				=>	'The title you entered contains a forbidden word. You must choose a different title.',
+'Forbidden title'				=>	'Titullin që ju keni shtypur konsiston me nji fjali të humbur. Ju duhet të zgjidhni një titull tjetër.',
 
 //
 // Profile display stuff
