@@ -5,4 +5,5 @@ Languages
 Here you can find translations for the ModernBB project.
 
 ## Translators
- - None
+ - Arianit Kukaj (njimret)
+ - The forum profile: http://modernbb.be/forum/profile.php?id=1908
