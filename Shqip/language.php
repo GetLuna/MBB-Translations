@@ -910,16 +910,16 @@ $lang = array(
 // Language for board.php
 //
 
-'Must enter name message'		=>	'You must enter a name',
-'Confirm delete cat head'		=>	'Confirm delete category',
-'Confirm delete cat info'		=>	'Are you sure that you want to delete the category <strong>%s</strong>?',
-'Delete category warn'			=>	'Deleting a category will delete all forums and posts (if any) in this category!',
-'Must enter integer message'	=>	'Position must be a positive integer value.',
-'Add categories head'			=>	'Add categories',
-'Delete categories head'		=>	'Delete categories',
-'Edit categories head'			=>	'Edit categories',
-'Category position label'		=>	'Position',
-'Category name label'			=>	'Name',
+'Must enter name message'		=>	'Ju duhët të shtypni nji emër',
+'Confirm delete cat head'		=>	'Konfirmo shlyerjen e kategoris',
+'Confirm delete cat info'		=>	'A jeni i sigurtë që dëshironi ta shlyeni kategorin <strong>%s</strong>?',
+'Delete category warn'			=>	'Shlyerja e kategoris do të shlyej gjithashtu të gjitha forumet dhe postimet nëse ka ndonjë në kategori!',
+'Must enter integer message'	=>	'Pozicioni duhët të ketë një numër pozitiv (plotë).',
+'Add categories head'			=>	'Shto kategori',
+'Delete categories head'		=>	'Shlyej kategorit',
+'Edit categories head'			=>	'Ndrysho kategorit',
+'Category position label'		=>	'Pozicioni',
+'Category name label'			=>	'Emri',
 
 //
 // Language fox censoring.php
