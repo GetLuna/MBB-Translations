@@ -925,9 +925,9 @@ $lang = array(
 // Language fox censoring.php
 //
 
-'Must enter word message'	=>	'You must enter a word to censor.',
-'Add word subhead'			=>	'Add word',
-'Add word info'				=>	'Enter a word that you want to censor and the replacement text for this word. Wildcards are accepted (i.e. *some* would match somewhere and lonesome). Censor words also affect usernames. New users will not be able to register with usernames containing any censored words. The search is case insensitive.',
+'Must enter word message'	=>	'Ju duhët të shtypni nji fjali për ta cenzoruar.',
+'Add word subhead'			=>	'Shto fjalën',
+'Add word info'				=>	'Shtyp fjalin që dëshironi ta censoroni dhe zëvendesoni atë me një fjal përkatëse. Dhe karateret e quditshme (si p.sh. *diçka* janë të lejuara). Censorimi i fjalve do të përfshij poashtu dhe përdoruesit. Përdoruesit e rinje nuk do te mund te regjistrohen nese kjo fjali është ne censorim. Kërkimi është jo sensitiv.',
 'Censoring enabled'			=>	'<strong>Censoring is enabled in %s.</strong>',
 'Censoring disabled'		=>	'<strong>Censoring is disabled in %s.</strong>',
 'Censored word label'		=>	'Censored word',
