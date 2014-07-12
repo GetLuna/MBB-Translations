@@ -947,13 +947,13 @@ $lang = array(
 'Gzip compression'		=>	'Gzip Kompresimi',
 'Start backup'			=>	'Krijo rezervën',
 
-'Backup info 1'			=>	'If your server supports it, you may also gzip-compress the file to reduce its size.',
+'Backup info 1'			=>	'Nëse ju e mbeshtetni këtë, ju ndofta përdoreni dhe gzip-compress për të zvogluar madhesin e skedarëve',
 
-'Restore complete'		=>	'Restore complete',
-'Restore options'		=>	'Restore options',
-'Start restore'			=>	'Start restore',
+'Restore complete'		=>	'Ktheje komplet',
+'Restore options'		=>	'Opcioni i kthimit',
+'Start restore'			=>	'Fillo kthimin',
 
-'Restore info 1'		=>	'This will perform a full restore of all ModernBB tables from a saved file. If your server supports it, you may upload a gzip-compressed text file and it will automatically be decompressed. This will overwrite any existing data. The restore may take a long time to process, so please do not move from this page until it is complete.',
+'Restore info 1'		=>	'Ky hap do të kthej të gjitha tablat e ModernBB nga skedaret e ruajtur. Nëse serveri juaj e përkrahë këtë, mund të ngarkoni dhe nji skedar të gzip-compress dhe tekst skedari atuomatikisht do të dekompresohet. Ky hap rishkruan të dhënat ekzistuese. Kthimi mund të zgjatë pak si proces, kështu qe ju lutem mos levizni nga faqja deri sa të përfundoj.',
 
 'Warning'				=>	'Warning: critical features',
 
