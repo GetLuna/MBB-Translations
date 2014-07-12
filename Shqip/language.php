@@ -71,7 +71,7 @@ $lang = array(
 'Message'							=>	'Mesazhi',
 'Topic'								=>	'Tema',
 'Forum'								=>	'Forum',
-'Posts table'						=>	'Postimet',
+'Posts table'						=>	'Postime',
 'Replies forum'						=>	'Pērgjegjiet',
 'Page'								=>	'Faqet %s',
 'BBCode'							=>	'BBCode',
@@ -684,7 +684,7 @@ $lang = array(
 'Sig preview'					=>	'Firma aktuale pamja:',
 'No sig'						=>	'S\'keni ndonje firm të regjistruar në profilin tuaj momentalisht.',
 'Signature quote/code/list/h'	=>	'Citimi, Kodi, listimi, dhe kryetitull i BBCodes nuk janë të lejueshme në firmë.',
-'Posts per page'				=>	'Postimet',
+'Posts per page'				=>	'Postime',
 'Leave blank'					=>	'Lere bosh përdor të përzgjedhuren',
 'Notify full'					=>	'Përfshij një plan tekst me një verzion të ri në abonimin për njoftimin me email.',
 'Auto notify full'				=>	'Abonohuni automatikisht në çdo postim që ju postoni.',
@@ -777,7 +777,7 @@ $lang = array(
 'Ascending'							=>	'Nga lart poshtë',
 'Descending'						=>	'Nga lart poshtë',
 'Show as'							=>	'Shfaq si',
-'Show as posts'						=>	'Postimet',
+'Show as posts'						=>	'Postime',
 'Advanced search'					=>	'Kërkim i avancuar',
 
 //
