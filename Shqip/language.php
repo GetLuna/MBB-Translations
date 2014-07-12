@@ -303,8 +303,8 @@ $lang = array(
 'Preparsing item'				=>	'Preparsing %1$s %2$s …',
 'Rebuilding index item'			=>	'Rinderto indeksin për %1$s %2$s',
 
-'post'							=>	'postim',
-'topic'							=>	'temë',
+'post'							=>	'postime',
+'topic'							=>	'tema',
 'signature'						=>	'firma',
 
 // Language for frontend
@@ -416,8 +416,8 @@ $lang = array(
 'Topics'		=>	'Temat',
 'Link to'		=>	'Lidhur tek:', // As in "Link to: http://modernbb.be/"
 'Empty board'	=>	'Është bosh.',
-'Newest user'	=>	'Anëtaret e rinjë: %s',
-'Users online'	=>	'Anëtarët në linjë: %s',
+'Newest user'	=>	'Antari më i ri: %s',
+'Users online'	=>	'Në linjë: %s',
 'Guests online'	=>	'Mysafir në linjë: %s',
 'No of users'	=>	'Totali i anëtarëve: %s',
 'No of topics'	=>	'Totali i temave: %s',
@@ -537,11 +537,11 @@ $lang = array(
 // Posting
 //
 
-'Post errors'		=>	'Gabimet në postim',
+'Post errors'		=>	'Gabimet gjatë postimit',
 'Post preview'		=>	'Shikim paraprak',
 'Guest name'		=>	'Emri', // For guests (instead of Username)
-'Post a reply'		=>	'Posto Përgjigju',
-'Post new topic'	=>	'Posto Temë të re',
+'Post a reply'		=>	'Përgjigju',
+'Post new topic'	=>	'Krijo Temë',
 'Hide smilies'		=>	'Asnjëherë mos shfaq smiles si ikona në këtë postim',
 'Subscribe topic'	=>	'Abonohu në këtë temë',
 'Stay subscribed'	=>	'Qendro i abonuar në këtë temë',
@@ -813,7 +813,7 @@ $lang = array(
 // Language for viewtopic.php
 //
 
-'Post reply'		=>	'Posto përgjegjie',
+'Post reply'		=>	'Përgjegjiu',
 'Topic closed'		=>	'Tema është mbyllur',
 'From'				=>	'nga:', // User location
 'IP address logged'	=>	'IP log',
@@ -928,24 +928,24 @@ $lang = array(
 'Must enter word message'	=>	'Ju duhët të shtypni nji fjali për ta cenzoruar.',
 'Add word subhead'			=>	'Shto fjalën',
 'Add word info'				=>	'Shtyp fjalin që dëshironi ta censoroni dhe zëvendesoni atë me një fjal përkatëse. Dhe karateret e quditshme (si p.sh. *diçka* janë të lejuara). Censorimi i fjalve do të përfshij poashtu dhe përdoruesit. Përdoruesit e rinje nuk do te mund te regjistrohen nese kjo fjali është ne censorim. Kërkimi është jo sensitiv.',
-'Censoring enabled'			=>	'<strong>Censoring is enabled in %s.</strong>',
-'Censoring disabled'		=>	'<strong>Censoring is disabled in %s.</strong>',
-'Censored word label'		=>	'Censored word',
-'Replacement label'			=>	'Replacement word(s)',
-'Edit remove words'			=>	'Edit or remove words',
-'No words in list'			=>	'No censor words in list.',
+'Censoring enabled'			=>	'<strong>Censorimi është bërë në %s.</strong>',
+'Censoring disabled'		=>	'<strong>Censorimi u nderpre për %s.</strong>',
+'Censored word label'		=>	'Fjalët e censoruara',
+'Replacement label'			=>	'Mbulimi i fjalëve',
+'Edit remove words'			=>	'Ndrysho ose shlyej fjalët',
+'No words in list'			=>	'S\'ka ndonje censorim në list.',
 
 //
 // Language fox database.php
 //
 
-'Backup options'		=>	'Backup options',
-'Backup type'			=>	'Backup type',
-'Full'					=>	'Full',
-'Structure only'		=>	'Structure only',
-'Data only'				=>	'Data only',
-'Gzip compression'		=>	'Gzip compression',
-'Start backup'			=>	'Start backup',
+'Backup options'		=>	'Opcioni rezervë',
+'Backup type'			=>	'Tipi i rezervës',
+'Full'					=>	'Tëresisht',
+'Structure only'		=>	'Vetëm struktura',
+'Data only'				=>	'Vetëm të dhënat',
+'Gzip compression'		=>	'Gzip Kompresimi',
+'Start backup'			=>	'Krijo rezervën',
 
 'Backup info 1'			=>	'If your server supports it, you may also gzip-compress the file to reduce its size.',
 
