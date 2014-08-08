@@ -87,23 +87,23 @@ $lang = array(
 // Title
 //
 
-'Title'								=>	'Title',
-'Member'							=>	'Member',
+'Title'								=>	'Titel',
+'Member'							=>	'Gebruiker',
 'Moderator'							=>	'Moderator',
-'Administrator'						=>	'Administrator',
-'Banned'							=>	'Banned',
-'Guest'								=>	'Guest',
+'Administrator'						=>	'Admin',
+'Banned'							=>	'Verbannen',
+'Guest'								=>	'Gast',
 
 //
 // Stuff for include/parser.php
 //
 
-'BBCode error no opening tag'		=>	'[/%1$s] was found without a matching [%1$s]',
-'BBCode error invalid nesting'		=>	'[%1$s] was opened within [%2$s], this is not allowed',
-'BBCode error invalid self-nesting'	=>	'[%s] was opened within itself, this is not allowed',
+'BBCode error no opening tag'		=>	'[/%1$s] bestaat, maar zonder bijbehorende [%1$s]',
+'BBCode error invalid nesting'		=>	'[%1$s] was geopend in [%2$s], dit is niet toegestaan',
+'BBCode error invalid self-nesting'	=>	'[%s] is binnen zichzelf geopend, dit is niet toegestaan',
 'BBCode error no closing tag'		=>	'[%1$s] was found without a matching [/%1$s]',
-'BBCode error empty attribute'		=>	'[%s] tag had an empty attribute section',
-'BBCode list size error'			=>	'Your list was too long to parse, please make it smaller!',
+'BBCode error empty attribute'		=>	'[%s] heeft geen attribute',
+'BBCode list size error'			=>	'De lijst is te lang, maak hem kleiner!',
 
 // Stuff for the navigator (top of every page)
 
