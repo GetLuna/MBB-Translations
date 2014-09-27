@@ -10,6 +10,7 @@ Here you can find translations for the ModernBB project.
  - ModernBB ([ModernBB](http://modernbb.be)) - English (English) ***
  - Vi0 ([vi0](http://modernbb.be/forum/profile.php?id=1926)) - Deutsch (German) **
  - Alec-verdosu - русский (Russian)
+ - Cyboulette ([Cyboulette](http://modernbb.be/forum/profile.php?id=2813)) - France (French)
 
 `*` In development<br />
 `**` Not available in repository, to be released<br />
