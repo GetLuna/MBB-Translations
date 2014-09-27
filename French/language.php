@@ -60,7 +60,7 @@ $lang = array(
 'Last post'							=>	'Dernier post',
 'by'								=>	'par', // As in last post by some user
 'New posts'							=>	'Nouveaux posts', // The link that leads to the first new post
-'New posts info'					=>	'Go to the first new post in this topic.', // The popup text for new posts links
+'New posts info'					=>	'Aller au premier nouveau message dans ce sujet.', // The popup text for new posts links
 'Username'							=>	'Pseudonyme',
 'Password'							=>	'Mot de passe',
 'Send email'						=>	'Envoyer un e-mail',
@@ -80,7 +80,7 @@ $lang = array(
 'and'								=>	'et',
 'Image link'						=>	'image', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
 'wrote'								=>	'citation', // For [quote]'s
-'Mailer'							=>	'%s Mailer', // As in "MyForums Mailer" in the signature of outgoing emails
+'Mailer'							=>	'Envoyé par %s', // As in "MyForums Mailer" in the signature of outgoing emails
 'Spacer'							=>	'…', // Ellipsis for paginate
 
 //
@@ -399,26 +399,26 @@ $lang = array(
 'Content question'				=>	'Les smileys, signatures, avatars et images ne sont plus visibles ?',
 'Content answer'				=>	'Vous pouvez modifier le comportement de la lecture d\'un sujet dans les paramètres de votre profil. Là, vous pouvez activer les smileys, les signatures, les avatars et les images dans les messages, mais ils sont par défaut activés, sauf si votre administrateur de forum a désactivé ces fonctions. Vous pouvez voir si les images et les smileys sont désactivées sous l\'éditeur. Si les étiquettes ont un fond rouge, ces fonctionnalités ne sont pas disponibles pour vous.',
 'Topics question'				=>	'Pourquoi ne puis-je pas voir tous les sujets pour tous les forums ?',
-'Topics answer'					=>	'Vous pourriez ne pas avoir les autorisations nécessaires pour les voir, demandez à l\'administrateur du forum pour plus d\'aide.',
+'Topics answer'					=>	'Vous pourriez ne pas avoir les autorisations nécessaires pour les voir, demandez à un administrateur du forum pour plus d\'aide.',
 'Profile question'				=>	'Pourquoi ne puis-je pas voir les profils d\'utilisateurs ?',
-'Profile answer'				=>	'Vous pourriez ne pas avoir les autorisations nécessaires pour les voir, demandez à l\'administrateur du forum pour plus d\'aide.',
+'Profile answer'				=>	'Vous pourriez ne pas avoir les autorisations nécessaires pour les voir, demandez à un administrateur du forum pour plus d\'aide.',
 'Information question'			=>	'Mon profil ne contient pas autant que les autres ?',
 'Information answer'			=>	'Votre profil n\'affiche que les champs remplis sur votre page de personnalité. Vous pouvez voir si vous avez manqué certains domaines.',
 'Advanced search question'		=>	'Existe t-il d\'autres options pour rechercher ?',
-'Advanced search answer'		=>	'When you go to the search page, you\'ll find yourself on a page with 1 search box. Below that search box there is a link to Advanced search, here you can find more search options! This feature may not be available on your device, if disabled by the forum admin.',
-'More search question'			=>	'Why can\'t search in more then 1 forum at once?',
-'More search answer'			=>	'You might not have the correct permissions to do so, ask the forums administrator for more help.',
-'Moderating'					=>	'Moderating',
-'Moderating info'				=>	'Admins and moderators need help sometimes, too! The basics of moderating are explained here.',
-'Moderate forum question'		=>	'How do I moderate a forum?',
-'Moderate forum answer'			=>	'The moderation options are available at the bottom of the page. Those features aren\'t available for all moderators. When you click this button, you will be send to a page where you can manage the current forum. From there, you can move, delete, merge, close and open multiple topics at once.',
-'Moderate topic question'		=>	'How do I moderate a topic?',
-'Moderate topic answer 1'		=>	'The moderation options are available at the bottom of the page. Those features aren\'t available for all moderators. When you click this button, you will be send to a page where you can manage the current topic. From there, you can select multiple post to delete or split from the current topic at once.',
-'Moderate topic answer 2'		=>	'Next to the "Moderate topic" button, you can find options to move, open or close the topic. You can also make it a sticky topic from there, or unstick it.',
-'Moderate user question'		=>	'How do I moderate an user?',
-'Moderate user answer 1'		=>	'Moderating options are available in the users profile. You can find the moderation options under "Administration" in the users profile menu. Those features aren\'t available for all moderators.',
-'Moderate user answer 2'		=>	'The Administration page allow you to check if the user has an admin note, and you can also change that note if required. You can also change the post count of the user. At this page, the user can also be given moderator permissions on a per-forum base, through the user must have a moderator account to be able to actually use those permissions.',
-'Moderate user answer 3'		=>	'Finally, you can ban or delete a user from his profile. If you want to ban and/or delete multiple users at once, you\'re probably better off with the advanced user management features in the Backstage.',
+'Advanced search answer'		=>	'Quand vous allez sur la page de recherche, vous vous trouvez sur une page avec un champ de recherche. En dessous de ce champ de recherche, il ya un lien vers la recherche avancée, vous y trouverez plus d\'options de recherche ! Cette fonction peut être indisponible, si elle est désactivée par un administrateur du forum.',
+'More search question'			=>	'Pourquoi je ne peux pas rechercher dans plus d\'un forum à la fois ?',
+'More search answer'			=>	'Vous pourriez ne pas avoir les autorisations nécessaires pour le faire, demander à un administrateur du forum pour plus d\'aide.',
+'Moderating'					=>	'Modération',
+'Moderating info'				=>	'Les administrateurs et modérateurs ont besoin d\'aide aussi ! Les bases de la modération sont expliquées ici.',
+'Moderate forum question'		=>	'Comment puis-je modérer un forum ?',
+'Moderate forum answer'			=>	'Les options de modération sont disponibles au bas de la page. Ces fonctionnalités ne sont pas disponibles pour tous les modérateurs. Lorsque vous cliquez sur ce bouton, vous serez redirigés sur une page où vous pourrez gérer le forum actuel. De là, vous pourrez déplacer, supprimer, fusionner, fermer et ouvrir plusieurs sujets à la fois.',
+'Moderate topic question'		=>	'Comment puis-je modérer un sujet ?',
+'Moderate topic answer 1'		=>	'Les options de modération sont disponibles au bas de la page. Ces fonctionnalités ne sont pas disponibles pour tous les modérateurs. Lorsque vous cliquez sur ce bouton, vous serez redirigés sur une page où vous pourrez gérer le sujet actuel. De là, vous pourrez sélectionner plusieurs messages à supprimer ou à séparer à la fois.',
+'Moderate topic answer 2'		=>	'À côté du bouton "Modérer le sujet", vous trouverez les options pour déplacer, ouvrir ou fermer le sujet. Vous pourrez également mettre le sujet en post-it ou le détacher.',
+'Moderate user question'		=>	'Comment puis-je modérer un utilisateur ?',
+'Moderate user answer 1'		=>	'Les options de modération sont disponibles dans le profil de l\'utilisateur. Vous pouvez aussi trouver ces options de modération dans "l\'Administration" puis dans le menu "Utilisateurs". Ces fonctionnalités ne sont pas disponibles pour tous les modérateurs.',
+'Moderate user answer 2'		=>	'La page d\'administration vous permet de vérifier si l\'utilisateur a une note administrative, et vous pouvez également modifier cette note, si nécessaire. Vous pouvez également modifier le nombre de messages de l\'utilisateur. Sur cette page, vous pouvez également donner des pouvoirs de modération sur certains forums, mais l\'utilisateur doit avoir un compte modérateur pour être en mesure d\'utiliser correctement ces autorisations.',
+'Moderate user answer 3'		=>	'Enfin, vous pouvez bannir ou supprimer un utilisateur. Si vous voulez bannir et/ou supprimer plusieurs utilisateurs à la fois, vous pouvez le faire avec les fonctions de gestion avancée des utilisateurs sur l\'administration.',
 
 //
 // Language for index.php
@@ -541,7 +541,7 @@ $lang = array(
 'Too long message'	=>	'Les messages ne peuvent pas être aussi longs que %s bits.',
 'All caps subject'	=>	'Les titres ne peuvent pas contenir que des majuscules.',
 'All caps message'	=>	'Les messages ne peuvent pas contenir que des majuscules.',
-'Empty after strip'	=>	'It seems your post consisted of empty BBCodes only. It is possible that this happened because e.g. the innermost quote was discarded because of the maximum quote depth level.',
+'Empty after strip'	=>	'Il semble que votre message est composé de BBCode vide seulement. Ceci est peut-être du au décalage de la citation la plus éloignée.',
 
 //
 // Posting
@@ -572,7 +572,7 @@ $lang = array(
 
 'Email legend'				=>	'Entrez une adresse e-mail valide',
 'Time zone'					=>	'Zone Temporelle',
-'DST'						=>	'Advance time by 1 hour for daylight saving.',
+'DST'						=>	'Avancer d\'une heure pour l\'heure d\'été.',
 'Time format'				=>	'Format du temps',
 'Date format'				=>	'Format de la date',
 'Default'					=>	'Défault',
@@ -582,20 +582,20 @@ $lang = array(
 'Email setting 2'			=>	'Ne pas afficher votre adresse e-mail mais autoriser l\'envoi de mails.',
 'Email setting 3'			=>	'Ne pas afficher votre adresse e-mail et interdire l\'envoi de mails.',
 
-'Username too short'		=>	'Usernames must be at least 2 characters long. Please choose another (longer) username.',
-'Username too long'			=>	'Usernames must not be more than 25 characters long. Please choose another (shorter) username.',
-'Username guest'			=>	'The username guest is reserved. Please choose another username.',
-'Username IP'				=>	'Usernames may not be in the form of an IP address. Please choose another username.',
-'Username reserved chars'	=>	'Usernames may not contain all the characters \', " and [ or ] at once. Please choose another username.',
-'Username BBCode'			=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses. Please choose another username.',
-'Banned username'			=>	'The username you entered is banned in this forum. Please choose another username.',
-'Pass too short'			=>	'Passwords must be at least 6 characters long. Please choose another (longer) password.',
-'Pass not match'			=>	'Passwords do not match.',
-'Banned email'				=>	'The email address you entered is banned in this forum. Please choose another email address.',
-'Dupe email'				=>	'Someone else is already registered with that email address. Please choose another email address.',
-'Sig too long'				=>	'Signatures cannot be longer than %1$s characters. Please reduce your signature by %2$s characters.',
-'Sig too many lines'		=>	'Signatures cannot have more than %s lines.',
-'Bad ICQ'					=>	'You entered an invalid ICQ UIN. Please go back and correct.',
+'Username too short'		=>	'Les noms d\'utilisateurs doivent être d\'au moins 2 caractères. Merci de choisir un nom d\'utilisateur plus grand.',
+'Username too long'			=>	'Les noms d\'utilisateurs ne peuvent dépasser plus de 25 caractères. Merci de choisir un nom d\'utilisateur plus petit.',
+'Username guest'			=>	'Ce pseudo est réservé. Merci d\'en choisir un autre',
+'Username IP'				=>	'Les noms d\'utilisateurs ne peuvent ressembler à des IPs. Merci de chosir un nom d\'utilisateur différent.',
+'Username reserved chars'	=>	'Les noms d\'utilisateurs ne peuvent pas contenir les caractères \', " et [ ou ] en même temps. Merci de chosir un nom d\'utilisateur différent.',
+'Username BBCode'			=>	'Les noms d\'utilisateurs ne peuvent pas contenir de balises BBCodes. Merci de chosir un nom d\'utilisateur différent.',
+'Banned username'			=>	'Le pseudo entré est banni du forum. Merci de chosir un nom d\'utilisateur différent.',
+'Pass too short'			=>	'Les mots de passe doivent être d\'au moins 6 caractères. Merci de choisir un mot de passe plus long.',
+'Pass not match'			=>	'Les mots de passe ne correspondent pas.',
+'Banned email'				=>	'L\'adresse e-mail entrée est bannie du forum. Merci de chosir une adresse e-mail différente.',
+'Dupe email'				=>	'Quelqu\'un est déjà inscrit avec cette adresse e-mail. Merci de chosir une adresse e-mail différente.',
+'Sig too long'				=>	'Les signatures ne peuvent pas contenir plus de %1$s caractères. Merci de réduire votre signature de %2$s caractères.',
+'Sig too many lines'		=>	'Les signatures ne peuvent pas dépasser %s lignes.',
+'Bad ICQ'					=>	'Vous avez entré un ICQ UIN incorrect. Retournez en arrière et corrigez-vous.',
 
 //
 // Language for profile.php
@@ -677,7 +677,7 @@ $lang = array(
 'Realname'						=>	'Nom réel ',
 'Location'						=>	'Lieu ',
 'Website'						=>	'Site Web',
-'Invalid website URL'			=>	'The website URL you entered is invalid.',
+'Invalid website URL'			=>	'L\'adresse du site-web entré est incorrecte.',
 'Microsoft'						=>	'Compte Microsoft ',
 'Facebook'						=>	'Facebook ',
 'Twitter'						=>	'Twitter ',
@@ -729,7 +729,7 @@ $lang = array(
 'No new regs'				=>	'Le forum n\'accepte pas de nouvelles inscriptions.',
 'Forum rules'				=>	'Règles du forum',
 'Rules legend'				=>	'Vous devez accepter ce qui suit afin de vous inscrire',
-'Registration flood'		=>	'A new user was registered with the same IP address as you within the last hour. To prevent registration flooding, at least an hour has to pass between registrations from the same IP. Sorry for the inconvenience.',
+'Registration flood'		=>	'Un nouvel utilisateur a été inscrit avec la même adresse IP que vous dans la dernière heure. Pour empêcher le flood, au moins une heure doit passer entre les enregistrements pour la même adresse IP. Désolé pour le désagrément.',
 'Agree'						=>	'Accepter',
 'Cancel'					=>	'Annuler',
 'Register legend'			=>	'Entrez les données demandées',
@@ -767,7 +767,7 @@ $lang = array(
 'No search permission'				=>	'Vous ne disposez pas des permissions nécessaires pour utiliser la fonction de recherche.',
 'Search flood'						=>  'At least %s seconds have to pass between searches. Please wait %s seconds and try searching again.',
 'Search criteria legend'			=>	'Entrez vos critères de recherche',
-'Search info'						=>	'To search by keyword, enter a term or terms to search for. Separate terms with spaces. Use AND, OR and NOT to refine your search. To search by author enter the username of the author whose posts you wish to search for. Use wildcard character * for partial matches.',
+'Search info'						=>	'Pour rechercher par mots clés, entrez différents termes à rechercher. Séparez ces termes par des espaces. Utilisez AND, OR et NOT pour affiner votre recherche. Pour effectuer une recherche par auteur, entrez le nom de l\'auteur des messages que vous souhaitez rechercher. Utilisez le caractère joker * pour des recherches partielles.',
 'Keyword search'					=>	'Recherche par mots clés',
 'Author search'						=>	'Recherche par auteur',
 'All forums'						=>	'Tous les forums',
@@ -829,7 +829,7 @@ $lang = array(
 'Report'			=>	'Rapporter',
 'Edit'				=>	'Editer',
 'Quote'				=>	'Citer',
-'Is subscribed'		=>	'You are subscribed',
+'Is subscribed'		=>	'Vous êtes abonnés',
 'Unsubscribe'		=>	'Se désabonner',
 'Subscribe'			=>	'S\'abonner',
 'Quick post'		=>	'Réponse rapide',
@@ -877,7 +877,7 @@ $lang = array(
 'Invalid IP message'		=>	'Vous avez entré une IP/intervalle-d\'ip invalide.',
 'Invalid e-mail message'	=>	'L\'adresse e-mail (par exemple utilisateur@domaine.fr) ou l\'adresse e-mail partielle de domaine (par exemple domaine.fr) que vous avez entré n\'est pas valide.',
 'Invalid date message'		=>	'Vous avez entré une date d\'expiration invalide.',
-'Invalid date reasons'		=>	'Le format doit être AAAA-MM-JJ et la date doit être au moins J+1 de la date actuelle.',
+'Invalid date reasons'		=>	'Le format de date doit être AAAA-MM-JJ et la date doit être au moins J+1 de la date actuelle.',
 
 'New ban head'				=>	'Ajouter un bannissement',
 'Username help'				=>	'Le pseudonyme à bannir',
@@ -1223,10 +1223,10 @@ $lang = array(
 
 'Reset head'						=>	'Fonctions de réinitialisation de ModernBB',
 'Soft reset'						=>	'Réinitialisation du logiciel',
-'Soft reset help'					=>	'The button below will remove the config.php file, this will cause the install to start so you can install ModernBB again. This will not drop the current database. This might be effective if your config.php file is corrupt. This can\'t be undone. Be sure you made a back-up before doing this.',
+'Soft reset help'					=>	'Le bouton ci-dessous va supprimer le fichier config.php, cela va vous permettre de recommencer l\'installation de ModernBB. La base de données actuelle ne sera pas supprimée. Cela peut être efficace si votre fichier config.php semble corrompu. Cette action ne peut-être annulée, assurez-vous que d\'avoir une sauvegarde avant de valider cette action.',
 'Hard reset'						=>	'Réinitialisation complète',
 'Reset config'						=>	'Réinitialiser le fichier config.php',
-'Hard reset help'					=>	'The button below will remove the config.php file and database, this will cause the install to start so you can install ModernBB again. You will lose all your data. This can\'t be undone. Be sure you made a back-up before doing this.',
+'Hard reset help'					=>	'Le bouton ci-dessous va supprimer le fichier config.php et la base de données. Toutes les données seront perdueS. Cette action ne peut-être annulée, assurez-vous que d\'avoir une sauvegarde avant de valider cette action.',
 'Reset'								=>	'Réinitialisation',
 
 //
@@ -1489,7 +1489,7 @@ $lang = array(
 // Language for statistics.php
 //
 
-'PHPinfo disabled message'			=>	'The PHP function phpinfo() has been disabled on this server.',
+'PHPinfo disabled message'			=>	'La fonction phpinfo() est désactivée sur le serveur.',
 'Server statistics head'			=>	'Statistiques du serveur',
 'Server load label'					=>	'Charge du serveur',
 'Server load data'					=>	'%s - %s utilisateur(s) en ligne',
@@ -1526,52 +1526,52 @@ $lang = array(
 // Actions: mass delete/ban etc.
 //
 
-'No users selected'			=>	'No users selected.',
-'No move admins message'	=>	'For security reasons, you are not allowed to move multiple administrators to another group. If you want to move these administrators, you can do so on their respective user profiles.',
-'No delete admins message'	=>	'Administrators cannot be deleted. In order to delete administrators, you must first move them to a different user group.',
-'No ban admins message'		=>	'Administrators cannot be banned. In order to ban administrators, you must first move them to a different user group.',
-'No ban mods message'		=>	'Moderators cannot be banned. In order to ban moderators, you must first move them to a different user group.',
-'Move users'				=>	'Change user group',
-'New group label'			=>	'New group',
-'New group help'			=>	'Select a new user group',
-'Invalid group message'		=>	'Invalid group ID.',
-'Delete users'				=>	'Delete users',
-'Ban users'					=>	'Ban users',
-'Ban IP label'				=>	'Ban IP addresses',
-'Ban IP help'				=>	'Also ban the IP addresses of the banned users to make registering a new account more difficult for them.',
+'No users selected'			=>	'Aucun utilisateurs sélectionnés.',
+'No move admins message'	=>	'Pour des multiples raisons de sécurité vous ne pouvez pas changer plusieurs administrateurs de groupe massivement. Si vous souhaitez changer le groupe de ces administrateurs, vous pouvez le faire via leur page de profil.',
+'No delete admins message'	=>	'Les administrateurs ne peuvent être supprimés. Pour pouvoir supprimer un administrateur vous devez tout d\'abord changer le groupe de celui-ci.',
+'No ban admins message'		=>	'Les administrateurs ne peuvent être bannis. Pour pouvoir bannir un administrateur vous devez tout d\'abord changer le groupe de celui-ci..',
+'No ban mods message'		=>	'Les modérateurs ne peuvent être bannis. Pour pouvoir bannir un modérateur vous devez tout d\'abord changer le groupe de celui-ci.',
+'Move users'				=>	'Changer de groupe utilisateur',
+'New group label'			=>	'Nouveau groupe',
+'New group help'			=>	'Sélectionnez un groupe d\'utilisateur',
+'Invalid group message'		=>	'ID de groupe invalide.',
+'Delete users'				=>	'Supprimer les utilisateurs',
+'Ban users'					=>	'Bannir les utilisateurs',
+'Ban IP label'				=>	'Bannir les adresses IP',
+'Ban IP help'				=>	'Bannir une adresse IP rend difficile une nouvelle inscription pour un utilisateur banni',
 
-'E-mail address label'		=>	'Email address',
-'Real name label'			=>	'Real name',
+'E-mail address label'		=>	'Adresse e-mail',
+'Real name label'			=>	'Nom réel',
 'Signature'					=>	'Signature',
-'Posts more than label'		=>	'Number of posts greater than',
-'Posts less than label'		=>	'Number of posts less than',
-'Last post after label'		=>	'Last post is after',
-'Last post before label'	=>	'Last post is before',
-'Last visit after label'	=>	'Last visit is after',
-'Last visit before label'	=>	'Last visit is before',
-'Registered after label'	=>	'Registered after',
-'Registered before label'	=>	'Registered before',
-'Order by posts'			=>	'Number of posts',
-'Order by last visit'		=>	'Last visit',
-'Order by registered'		=>	'Registered',
-'All groups'				=>	'All groups',
-'Unverified users'			=>	'Unverified users',
-'IP search head'			=>	'IP search',
-'IP address label'			=>	'IP address',
-'IP address help'			=>	'The IP address to search for in the post database.',
-'Find IP address'			=>	'Find IP address',
+'Posts more than label'		=>	'Nombre de messages supérieur à',
+'Posts less than label'		=>	'Nombre de messages inférieur à',
+'Last post after label'		=>	'Le dernier message après le',
+'Last post before label'	=>	'Le dernier message avant le',
+'Last visit after label'	=>	'Dernière visite après le',
+'Last visit before label'	=>	'Dernière visite avant le',
+'Registered after label'	=>	'Inscrit après le',
+'Registered before label'	=>	'Inscrit avant le',
+'Order by posts'			=>	'Nombre de messages',
+'Order by last visit'		=>	'Dernière visite',
+'Order by registered'		=>	'Inscription',
+'All groups'				=>	'Tous les groupes',
+'Unverified users'			=>	'Utilisateurs non-vérifiés',
+'IP search head'			=>	'Recherche d\'adresse IP',
+'IP address label'			=>	'Adresse IP',
+'IP address help'			=>	'L\'adresse IP à rechercher dans la base de données.',
+'Find IP address'			=>	'Trouver l\'adresse IP',
 
-'Results title head'		=>	'Title/Status',
-'Results posts head'		=>	'Posts',
-'Results last used head'	=>	'Last used',
-'Results times found head'	=>	'Times found',
-'Results find more link'	=>	'Find more users for this ip',
-'Results no posts found'	=>	'There are currently no posts by that user in the forum.',
-'Ban'						=>	'Ban',
-'Change group'				=>	'Change group',
-'Bad IP message'			=>	'The supplied IP address is not correctly formatted.',
-'Results view IP link'		=>	'IP stats',
-'Results no IP found'		=>	'The supplied IP address could not be found in the database.',
+'Results title head'		=>	'Titre/Status',
+'Results posts head'		=>	'Messages',
+'Results last used head'	=>	'Dernière utilisation',
+'Results times found head'	=>	'Nombres de fois trouvé',
+'Results find more link'	=>	'Trouver plus d\'utilisateur pour cette adresse IP',
+'Results no posts found'	=>	'Il n\'y a actuellement aucun message pour cet utilisateur dans ce forum.',
+'Ban'						=>	'Bannir',
+'Change group'				=>	'Changer de groupe',
+'Bad IP message'			=>	'L\'adresse IP est dans un format incorrect.',
+'Results view IP link'		=>	'Statistiques d\'IP',
+'Results no IP found'		=>	'L\'adresse IP n\'a pas été trouvée.',
 
 //
 // Create new user
@@ -1656,105 +1656,105 @@ $lang = array(
 
 // Email - activate_email.tpl
 'activate_email.tpl'          =>
-'Subject: Change email address requested
+'Subject: Demande de changement d\'adresse e-mail
 
-Hello <username>,
+Bonjour <username>,
 
-You have requested to have a new email address assigned to your account in the discussion forum at <base_url>. If you did not request this or if you do not want to change your email address you should just ignore this message. Only if you visit the activation page below will your email address be changed. In order for the activation page to work, you must be logged in to the forum.
+Vous avez fait une demande pour changer votre adresse e-mail sur le forum : <base_url>. Si vous n\'êtes pas l\'auteur de cette demande et que vous ne souhaitez pas changer votre adresse e-mail merci d\'ignorer ce mail. Le changement d\'adresse se fera seulement si vous cliquez sur le lien d\'activation ci-dessous. Pour pouvoir activer la nouvelle adresse e-mail, vous devez être connectés sur le forum.
 
-To change your email address, please visit the following page:
+Pour changer votre adresse e-mail, merci de vous rendre sur la page suivante :
 <activation_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 //
 // Email - activate_password.tpl
 //
 'activate_password.tpl'          =>
-'Subject: New password requested
+'Subject: Demande de nouveau mot de passe
 
-Hello <username>,
+Bonjour <username>,
 
-You have requested to have a new password assigned to your account in the discussion forum at <base_url>. If you did not request this or if you do not want to change your password you should just ignore this message. Only if you visit the activation page below will your password be changed.
+Vous avez fait une demande pour changer votre mot de passe sur le forum : <base_url>. Si vous n\'êtes pas l\'auteur de cette demande et que vous ne souhaitez pas changer votre mot de passe merci d\'ignorer ce mail. Le changement de mot de passe se fera seulement si vous cliquez sur le lien d\'activation ci-dessous.
 
-Your new password is: <new_password>
+Votre nouveau mot de passe est : <new_password>
 
-To change your password, please visit the following page:
+Pour activer ler changement de votre mot de passe, merci de vous rendre sur la page suivante :
 <activation_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - banned_email_change.tpl
 'banned_email_change.tpl'          =>
-'Subject: Alert - Banned email detected
+'Subject: Alerte - Adresse e-mail bannie détectée
 
-User "<username>" changed to banned email address: <email>
+L\'utilisateur "<username>" a changé son adresse e-mail pour une adresse e-mail bannie qu\'est : <email>
 
-User profile: <profile_url>
+Profil de l\'utilisateur : <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - banned_email_post.tpl
 'banned_email_post.tpl'          =>
-'Subject: Alert - Banned email detected
+'Subject: Alerte - Adresse e-mail bannie détectée
 
-User "<username>" posted with banned email address: <email>
+L\'utilisateur "<username>" a posté un message avec l\'adresse e-mail bannie : <email>
 
-Post URL: <post_url>
+Lien vers le message : <post_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message))',
 
 // Email - banned_email_register.tpl
 'banned_email_register.tpl'          =>
-'Subject: Alert - Banned email detected
+'Subject: Alerte - Adresse e-mail bannie détectée
 
-User "<username>" registered with banned email address: <email>
+L\'utilisateur "<username>" s\'est inscrit avec une adresse e-mail bannie qu\'est : <email>
 
-User profile: <profile_url>
+Profil de l\'utilisateur : <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - dupe_email_change.tpl
 'dupe_email_change.tpl'          =>
-'Subject: Alert - Duplicate email detected
+'Subject: Alerte - Duplication d\'adresse e-mail détectée
 
-User "<username>" changed to an email address that also belongs to: <dupe_list>
+L\'utilisateur "<username>" a changé son adresse e-mail pour une adresse e-mail appartenant déjà à : <dupe_list>
 
-User profile: <profile_url>
+Profil de l\'utilisateur : <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - dupe_email_register.tpl
 'dupe_email_register.tpl'          =>
-'Subject: Alert - Duplicate email detected
+'Subject: Alerte - Duplication d\'adresse e-mail détectée
 
-User "<username>" registered with an email address that also belongs to: <dupe_list>
+L\'utilisateur "<username>" s\'est inscrit avec une adresse e-mail appartenant déjà : <dupe_list>
 
-User profile: <profile_url>
+Profil de l\'utilisateur  : <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>r
+(Ne pas répondre à ce message)',
 
 // Email - form_email.tpl
 'form_email.tpl'          =>
 'Subject: <mail_subject>
 
-<sender> from <board_title> has sent you a message. You can reply to <sender> by replying to this email.
+<sender> de "<board_title>" vous a envoyé un e-mail. Vous pouvez répondre à <sender> directement en répondant à ce mail.
 
-The message reads as follows:
+Le message se lit comme suit :
 -----------------------------------------------------------------------
 
 <mail_message>
@@ -1762,133 +1762,133 @@ The message reads as follows:
 -----------------------------------------------------------------------
 
 --
-<board_mailer> Mailer',
+Envoyé depuis <board_mailer>',
 
 // Email - new_reply.tpl
 'new_reply.tpl'          =>
-'Subject: Reply to topic: "<topic_subject>"
+'Subject: Réponse au sujet : "<topic_subject>"
 
-<replier> has replied to the topic "<topic_subject>" to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+<replier> a répondu au sujet "<topic_subject>" pour lequel vous êtes abonné. Il peut y avoir plus de nouvelles réponses, mais c\'est la seule notification que vous recevrez jusqu\'à ce que vous visitiez le forum de nouveau.
 
-The post is located at <post_url>
+Le message est accessible depuis : <post_url>
 
-You can unsubscribe by going to <unsubscribe_url>
+Vous pouvez vous désabonner du sujet en cliquant sur : <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - new_reply_full.tpl
 'new_reply_full.tpl'          =>
-'Subject: Reply to topic: "<topic_subject>"
+'Subject: Réponse au sujet : "<topic_subject>"
 
-<replier> has replied to the topic "<topic_subject>" to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+<replier> a répondu au sujet "<topic_subject>" pour lequel vous êtes abonné. Il peut y avoir plus de nouvelles réponses, mais c\'est la seule notification que vous recevrez jusqu\'à ce que vous visitiez le forum de nouveau.
 
-The post is located at <post_url>
+Le message est accessible depuis : <post_url>
 
-The message reads as follows:
+Le message se lit comme suit :
 -----------------------------------------------------------------------
 
 <message>
 
 -----------------------------------------------------------------------
 
-You can unsubscribe by going to <unsubscribe_url>
+Vous pouvez vous désabonner du sujet en cliquant sur : <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - new_report.tpl
 'new_report.tpl'          =>
-'Subject: Report(<forum_id>) - "<topic_subject>"
+'Subject: Rapport(<forum_id>) - "<topic_subject>"
 
-User "<username>" has reported the following message: <post_url>
+L\'utilisateur "<username>" a rapporté le message suivant : <post_url>
 
-Reason: <reason>
+Raison : <reason>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - new_topic.tpl
 'new_topic.tpl'          =>
-'Subject: New topic in forum: "<forum_name>"
+'Subject: Nouveau sujet dans le forum : "<forum_name>"
 
-<poster> has posted a new topic "<topic_subject>" in the forum "<forum_name>", to which you are subscribed.
+<poster> a posté un nouveau sujet "<topic_subject>" dans le forum "<forum_name>", où vous êtes abonné.
 
-The topic is located at <topic_url>
+Le sujet est accessible depuis : <topic_url>
 
-You can unsubscribe by going to <unsubscribe_url>
+Vous pouvez vous désabonner en cliquant sur : <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - new_topic_full.tpl
 'new_topic_full.tpl'          =>
-'Subject: New topic in forum: "<forum_name>"
+'Subject: Nouveau sujet dans le forum : "<forum_name>"
 
-<poster> has posted a new topic "<topic_subject>" in the forum "<forum_name>", to which you are subscribed.
+<poster> a posté un nouveau sujet "<topic_subject>" dans le forum "<forum_name>", où vous êtes abonné.
 
-The topic is located at <topic_url>
+Le sujet est accessible depuis : <topic_url>
 
-The message reads as follows:
+Le message se lit comme suit :
 -----------------------------------------------------------------------
 
 <message>
 
 -----------------------------------------------------------------------
 
-You can unsubscribe by going to <unsubscribe_url>
+Vous pouvez vous désabonner en cliquant sur : <unsubscribe_url>
 
 --
-<board_mailer> Mailer
+Envoyé depuis <board_mailer>
 (Do not reply to this message)',
 
 // Email - new_user.tpl
 'new_user.tpl'          =>
-'Subject: Alert - New registration
+'Subject: Alerte - Nouvelle inscription
 
-User "<username>" registered in the forums at <base_url>
+L\'utilisateur "<username>" s\'est inscrit sur les forums de <base_url>
 
-User profile: <profile_url>
+Profil de l\'utilisateur : <profile_url>
 
-To administer this account, please visit the following page:
+Pour administrer ce profil vous pouvez cliquer sur :
 <admin_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - rename.tpl
 'rename.tpl'          =>
-'Subject: User account renamed
+'Subject: Renommage de votre compte
 
-During an upgrade to the forums at <base_url> it was determined your username is too similar to an existing user. Your username has been changed accordingly.
+Durant une mise à jour des forums de <base_url>, il a été détecté que votre pseudonyme semblait trop proche d\'un pseudonyme existant. Il a donc été changé comme ceci :
 
-Old username: <old_username>
-New username: <new_username>
+Ancien pseudonyme : <old_username>
+Nouveau pseudonyme : <new_username>
 
-We apologise for any inconvenience caused.
+Nous nous excusons pour la gêne occasionnée.
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 // Email - welcome.tpl
 'welcome.tpl'          =>
-'Subject: Welcome to <board_title>!
+'Subject: Bienvenue sur <board_title>!
 
-Thank you for registering in the forums at <base_url>. Your account details are:
+Merci de votre inscription sur les forums de <base_url>. Les détails de votre compte sont :
 
-Username: <username>
-Password: <password>
+Pseudonyme : <username>
+Mot de passe : <password>
 
-Login at <login_url> to activate the account.
+Connectez vous sur <login_url> pour activer votre compte.
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Envoyé depuis <board_mailer>
+(Ne pas répondre à ce message)',
 
 );
