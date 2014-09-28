@@ -5,13 +5,12 @@ Languages
 Here you can find translations for the ModernBB project.
 
 ## Translators
- - Arianit Kukaj ([njimret](http://modernbb.be/forum/profile.php?id=1908)) - Shqip (Albanian) *
- - Studio 384 ([Yannick](http://modernbb.be/forum/profile.php?id=2)) - Nederlands (Dutch) *
- - ModernBB ([ModernBB](http://modernbb.be)) - English (English) ***
- - Vi0 ([vi0](http://modernbb.be/forum/profile.php?id=1926)) - Deutsch (German) **
- - Alec-verdosu - русский (Russian)
- - Cyboulette ([Cyboulette](http://modernbb.be/forum/profile.php?id=2813)) - France (French)
+- Albanian (Shqip) - Arianit Kukaj ([njimret](http://modernbb.be/forum/profile.php?id=1908)) *
+- Dutch (Nederlands) - ([Yannick](http://modernbb.be/forum/profile.php?id=2)) *
+- English (English) - ModernBB ([ModernBB](http://modernbb.be))
+- French (Français) - Cyboulette ([Cyboulette](http://modernbb.be/forum/profile.php?id=2813))
+- German (Deutsch) - Vi0 ([vi0](http://modernbb.be/forum/profile.php?id=1926)) **
+- Russian (русский) - Alec-verdosu
 
 `*` In development<br />
-`**` Not available in repository, to be released<br />
-`***` English is not available in this repository, you'll have to download it with the ModernBB Core.
+`**` Not available in repository, to be released
