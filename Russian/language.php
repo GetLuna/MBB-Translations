@@ -801,7 +801,6 @@ $lang = array(
 'Quick search show_new'				=>	'Новые темы',
 'Quick search show_recent'			=>	'Активные темы',
 'Quick search show_unanswered'		=>	'Темы без ответов',
-'Quick search show_replies'			=>	'Темы с вашим участием',
 'Quick search show_user_topics'		=>	'Темы от %s',
 'Quick search show_user_posts'		=>	'Сообщения от %s',
 'Quick search show_subscriptions'	=>	'Подписки пользователя %s',
@@ -1425,14 +1424,12 @@ $lang = array(
 'Display e-mail label'				=>	'Показывать почтовый адрес всем пользователям.',
 'Hide allow form label'				=>	'Скрывать почтовый адрес, но разрешать отправлять письма.',
 'Hide both label'					=>	'Скрывать почтовый адрес и запрещать отправлять письма.',
-'Antispam API label'				=>	'Антиспам API',
-'Antispam API help'					=>	'Вы можете запросить ключ API %s для защиты вашего форума от спама',
 
 //
 // Announcement Section
 //
 
-'Announcement subhead'				=>	'Объявления',
+'Announcements'	            		=>	'Объявления',
 'Display announcement help'			=>	'Активируйте эту опцию, чтобы показывать на форуме следующее сообщение.',
 
 //
