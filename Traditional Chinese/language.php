@@ -22,41 +22,41 @@ $lang = array(
 // Notices
 //
 
-'Bad request'						=>	'Bad request. The link you followed is incorrect, outdated or you\'re simply not allowed to hang around here.',
-'No view'							=>	'You do not have permission to view this page.',
+'Bad request'						=>	'錯誤的請求 The link you followed is incorrect, outdated or you\'re simply not allowed to hang around here.',
+'No view'							=>	'您沒有權限瀏覽此頁面',
 'Bad referrer'						=>	'Bad HTTP_REFERER. You were referred to this page from an unauthorized source. If the problem persists please make sure that \'Base URL\' is correctly set in Admin/Options and that you are visiting the forum by navigating to that URL. More information regarding the referrer check can be found in the ModernBB documentation.',
-'No permission'						=>	'You do not have permission to access this page.',
+'No permission'						=>	'您沒有權限存取此頁面',
 'No cookie'							=>	'You appear to have logged in successfully, however a cookie has not been set. Please check your settings and if applicable, enable cookies for this website.',
 'Pun include extension'				=>  'Unable to process user include %s from template %s. "%s" files are not allowed',  
 'Pun include directory'				=>  'Unable to process user include %s from template %s. Directory traversal is not allowed',  
 'Pun include error'					=>  'Unable to process user include %s from template %s. There is no such file in neither the template directory nor in the user include directory',  
 'Settings saved'					=>  'Your settings have been saved.',
-'User deleted'						=>  'The user has been deleted.',
+'User deleted'						=>  '使用者已被刪除',
 'User failed'                       =>  'Failed to create user, no password was given.',
-'User created'                      =>  'User created',
-'Cache cleared'						=>  'The cache files have been removed.',
+'User created'                      =>  '使用者已建立',
+'Cache cleared'						=>  '快取檔案已被移除',
 
 //
 // Miscellaneous
 //
 
-'Announcement'						=>	'Announcement',
+'Announcement'						=>	'公告',
 'Options'							=>	'Global settings',
 'Features'							=>	'Features',
 'Submit'							=>	'送出', // "Name" of submit buttons
 'Search'							=>	'搜尋',
-'Ban message'						=>	'You are banned from this forum.',
+'Ban message'						=>	'您被此討論區封鎖了',
 'Ban message 2'						=>	'The ban expires at the end of',
 'Ban message 3'						=>	'The administrator or moderator that banned you left the following message:',
 'Ban message 4'						=>	'Please direct any inquiries to the forum administrator at',
-'Never'								=>	'Never',
+'Never'								=>	'從未',
 'Today'								=>	'今日',
 'Yesterday'							=>	'昨日',
-'Info'								=>	'Info', // A common table header
+'Info'								=>	'資訊', // A common table header
 'Maintenance'						=>	'維護模式',
 'Invalid email'						=>	'The email address you entered is invalid.',
-'Required'							=>	'(Required)',
-'required field'					=>	'is a required field in this form.', // For javascript form validation
+'Required'							=>	'(必填)',
+'required field'					=>	'是必填欄位', // For javascript form validation
 'Last post'							=>	'Last post',
 'by'								=>	'by', // As in last post by some user
 'New posts'							=>	'發表新文章', // The link that leads to the first new post
@@ -65,12 +65,12 @@ $lang = array(
 'Password'							=>	'使用者密碼',
 'Send email'						=>	'寄送email',
 'Moderated by'						=>	'Moderated by',
-'Registered table'					=>	'Registered',
+'Registered table'					=>	'註冊',
 'Subject'							=>	'Subject',
 'Start typing'                      =>  'Start typing...',
 'Message'							=>	'Message',
 'Topic'								=>	'文章',
-'Forum'								=>	'Forum',
+'Forum'								=>	'討論區',
 'Posts table'						=>	'回應',
 'Replies forum'						=>	'Replies',
 'Page'								=>	'Page %s',
@@ -78,8 +78,8 @@ $lang = array(
 'img tag'							=>	'[img] 標籤',
 'Smilies'							=>	'表情符號',
 'and'								=>	'and',
-'Image link'						=>	'image', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
-'wrote'								=>	'wrote', // For [quote]'s
+'Image link'						=>	'圖片', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
+'wrote'								=>	'寫到', // For [quote]'s
 'Mailer'							=>	'%s Mailer', // As in "MyForums Mailer" in the signature of outgoing emails
 'Spacer'							=>	'…', // Ellipsis for paginate
 
@@ -121,10 +121,10 @@ $lang = array(
 'Login'								=>	'登入',
 'Profile'							=>	'個人資料',
 'Logout'							=>	'登出',
-'Backstage'							=>	'Backstage',
-'New posts header'					=>	'New',
-'Active topics'						=>	'熱門',
-'Unanswered topics'					=>	'Unanswered',
+'Backstage'							=>	'管理介面',
+'New posts header'					=>	'最新文章',
+'Active topics'						=>	'熱門文章',
+'Unanswered topics'					=>	'尚未回覆',
 'Posted topics'						=>	'Posted',
 'Show new posts'					=>	'Find topics with new posts since your last visit.',
 'Show active topics'				=>	'Find topics with recent posts.',
@@ -146,7 +146,7 @@ $lang = array(
 'Stick topic'						=>	'Stick topic',
 'Moderate forum'					=>	'Moderate forum',
 'Powered by'						=>	'Powered by %s',
-'Thanks'							=>	'Thanks for using %s',
+'Thanks'							=>	'感謝使用 %s',
 
 //
 // Debug information
@@ -154,7 +154,7 @@ $lang = array(
 
 'Debug table'						=>	'偵錯資訊',
 'Querytime'							=>	'Generated in %1$s seconds, %2$s queries executed',
-'Memory usage'						=>	'Memory usage: %1$s',
+'Memory usage'						=>	'記憶體使用: %1$s',
 'Peak usage'						=>	'(Peak: %1$s)',
 'Query times'						=>	'Time (s)',
 'Query'								=>	'Query',
@@ -170,7 +170,7 @@ $lang = array(
 'Change your avatar'				=>	'更換您的頭貼',
 'Extend profile'					=>	'Extend your details',
 'Get help'							=>	'Get help',
-'Do not show again'					=>	'Don\'t show again',
+'Do not show again'					=>	'不要再顯示',
 
 //
 // For extern.php RSS feed
@@ -209,22 +209,22 @@ $lang = array(
 // Language for installation
 //
 
-'Choose install language'		=>	'Choose the install script language',
-'Choose install language info'	=>	'The language used for this install script. The default language used for the board itself can be set below.',
-'Install language'				=>	'Install language',
-'Change language'				=>	'Change language',
+'Choose install language'		=>	'請選擇安裝過程的語言',
+'Choose install language info'	=>	'這個語言設定將被使用在安裝過程, 討論區的預設語言可以在下方獨立設定',
+'Install language'				=>	'安裝語言',
+'Change language'				=>	'變更語言',
 'Already installed'				=>	'It seems like ModernBB is already installed. You should go <a href="index.php">here</a> instead.',
 'You are running error'			=>	'You are running %1$s version %2$s. ModernBB %3$s requires at least %1$s %4$s to run properly. You must upgrade your %1$s installation before you can continue.',
 'My ModernBB Forum'				=>	'My ModernBB Forum',
-'Description'					=>	'You can do anything',
-'Username 1'					=>	'Usernames must be at least 2 characters long.',
-'Username 2'					=>	'Usernames must not be more than 25 characters long.',
+'Description'					=>	'這是一個使用ModernBB所建立的討論區',
+'Username 1'					=>	'使用者名稱必須大於2字元',
+'Username 2'					=>	'使用者名稱不能大於25字元',
 'Username 3'					=>	'The username guest is reserved.',
 'Username 4'					=>	'Usernames may not be in the form of an IP address.',
 'Username 5'					=>	'Usernames may not contain all the characters \', " and [ or ] at once.',
 'Username 6'					=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses.',
 'Short password'				=>	'Passwords must be at least 6 characters long.',
-'Passwords not match'			=>	'Passwords do not match.',
+'Passwords not match'			=>	'密碼不符合',
 'Wrong email'					=>	'The administrator email address you entered is invalid.',
 'No board title'				=>	'You must enter a board title.',
 'Error default language'		=>	'The default language chosen doesn\'t seem to exist.',
@@ -235,31 +235,31 @@ $lang = array(
 'Administrator password 2'		=>	'管理員密碼 2',
 'Administrator email'			=>	'Email',
 'Board title'					=>	'版面標題',
-'Base URL'						=>	'No trailing slash',
-'Required field'				=>	'is a required field in this form.',
-'ModernBB Installation'			=>	'ModernBB Installation',
-'Install'						=>	'Install ModernBB %s',
-'Errors'						=>	'The following errors need to be corrected:',
-'Database setup'				=>	'Database setup',
-'Select database'				=>	'Select your database type',
-'Info 1'						=>	'What database do you want to use?',
-'Database type'					=>	'Type',
-'Info 2'						=>	'Where\'s the server?',
-'Info 3'						=>	'The database name',
-'Database server hostname'		=>	'Server hostname',
-'Database name'					=>	'Name',
-'Database enter informations'	=>	'Enter your database username and password',
-'Database username'				=>	'Username',
-'Info 4'						=>	'Your database username',
-'Database password'				=>	'Password',
-'Info 5'						=>	'Set for more ModernBB installation in this database',
-'Table prefix'					=>	'Table prefix',
-'Administration setup'			=>	'Administration setup',
-'Info 6'						=>	'2 to 25 characters long',
-'Info 7'						=>	'At least 6 characters long',
-'Confirm password'				=>	'Confirm password',
-'Board setup'					=>	'Board setup',
-'Board description'				=>	'Board description',
+'Base URL'						=>	'沒有結尾的斜線',
+'Required field'				=>	'為必填項目',
+'ModernBB Installation'			=>	'ModernBB 安裝程式',
+'Install'						=>	'安裝 ModernBB %s',
+'Errors'						=>	'以下錯誤必須先被修正:',
+'Database setup'				=>	'資料庫設定',
+'Select database'				=>	'請選擇您的資料庫類別',
+'Info 1'						=>	'您想使用哪一種資料庫?',
+'Database type'					=>	'類別',
+'Info 2'						=>	'伺服器在哪裡?',
+'Info 3'						=>	'資料庫名稱',
+'Database server hostname'		=>	'伺服器位置',
+'Database name'					=>	'資料庫名稱',
+'Database enter informations'	=>	'請輸入您的資料庫帳號與密碼',
+'Database username'				=>	'使用者名稱',
+'Info 4'						=>	'您的資料庫使用者帳號',
+'Database password'				=>	'資料庫密碼',
+'Info 5'						=>	'安裝多個ModernBB在同一個資料庫時使用',
+'Table prefix'					=>	'資料表前綴',
+'Administration setup'			=>	'管理員設定',
+'Info 6'						=>	'2 至 25 字元',
+'Info 7'						=>	'最少6字元',
+'Confirm password'				=>	'密碼確認',
+'Board setup'					=>	'討論區設定',
+'Board description'				=>	'討論區描述',
 'Appearance'					=>	'Appearance',
 'Default language'				=>	'預設語言',
 'Default style'					=>	'預設風格',
@@ -278,23 +278,23 @@ $lang = array(
 'Alert cache'					=>	'<strong>The cache directory is currently not writable!</strong> In order for ModernBB to function properly, the directory <em>%s</em> must be writable by PHP. Use chmod to set the appropriate directory permissions. If in doubt, chmod to 0777.',
 'Alert avatar'					=>	'<strong>The avatar directory is currently not writable!</strong> If you want users to be able to upload their own avatar images you must see to it that the directory <em>%s</em> is writable by PHP. You can later choose to save avatar images in a different directory (see Admin/Options). Use chmod to set the appropriate directory permissions. If in doubt, chmod to 0777.',
 'Alert upload'					=>	'<strong>File uploads appear to be disallowed on this server!</strong> If you want users to be able to upload their own avatar images you must enable the file_uploads configuration setting in PHP. Once file uploads have been enabled, avatar uploads can be enabled in Administration/Options/Features.',
-'ModernBB has been installed'	=>	'ModernBB has been installed. To finalize the installation please follow the instructions below.',
+'ModernBB has been installed'	=>	'ModernBB 已經完成基本安裝, 完成安裝, 請依照下面說明繼續',
 'Info 8'						=>	'To finalize the installation, you need to click on the button below to download a file called config.php. You then need to upload this file to the root directory of your ModernBB installation.',
 'Info 9'						=>	'Once you have uploaded config.php, ModernBB will be fully installed! At that point, you may <a href="index.php">go to the forum index</a>.',
-'Download config.php file'		=>	'Download config.php file',
-'ModernBB fully installed'		=>	'ModernBB has been fully installed! You may now <a href="index.php">go to the forum index</a>.',
+'Download config.php file'		=>	'下載 config.php 檔案',
+'ModernBB fully installed'		=>	'ModernBB 已經完整安裝! 您現在可以 <a href="index.php">前往討論區首頁</a>.',
 
 //
 // Language for updating
 //
 
-'Update ModernBB'				=>	'Update ModernBB',
+'Update ModernBB'				=>	'更新 ModernBB',
 'Down'							=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
 
 'Version mismatch error'		=>	'Version mismatch. The database \'%s\' doesn\'t seem to be running a ModernBB database schema supported by this update script.',
 'No update error'				=>	'Your forum is already as up-to-date as this script can make it',
 
-'Start update'					=>	'Start update',
+'Start update'					=>	'開始更新',
 'Correct errors'				=>	'The following errors need to be corrected:',
 'Successfully updated'			=>	'Your forum database was successfully updated. You may now %s.',
 'go to index'					=>	'go to the forum index',
@@ -302,8 +302,8 @@ $lang = array(
 'Preparsing item'				=>	'Preparsing %1$s %2$s …',
 'Rebuilding index item'			=>	'Rebuilding index for %1$s %2$s',
 
-'post'							=>	'post',
-'topic'							=>	'topic',
+'post'							=>	'回應',
+'topic'							=>	'文章',
 'signature'						=>	'signature',
 
 // Language for frontend
@@ -312,12 +312,12 @@ $lang = array(
 // Language for delete.php
 //
 
-'Delete post'			=>	'Delete post',
+'Delete post'			=>	'刪除回應',
 'Topic warning'			=>	'Warning! This is the first post in the topic, the whole topic will be permanently deleted.',
 'Delete info'			=>	'The post you have chosen to delete is set out below for you to review before proceeding.',
 'Reply by'				=>	'Reply by %s - %s',
 'Topic by'				=>	'Topic started by %s - %s',
-'Delete'				=>	'Delete',
+'Delete'				=>	'刪除',
 
 //
 // Language for help.php
@@ -424,27 +424,27 @@ $lang = array(
 // Language for index.php
 //
 
-'Topics'		=>	'Topics',
+'Topics'		=>	'文章',
 'Link to'		=>	'Link to:', // As in "Link to: http://modernbb.be/"
-'Empty board'	=>	'Board is empty.',
-'Newest user'	=>	'Newest user: %s',
-'Users online'	=>	'Users online: %s',
-'Guests online'	=>	'Guests online: %s',
-'No of users'	=>	'Total users: %s',
-'No of topics'	=>	'Total topics: %s',
-'No of post'	=>	'Total posts: %s',
-'Online'		=>	'Online:', // As in "Online: User A, User B etc."
-'Board stats'	=>	'Board statistics',
+'Empty board'	=>	'討論區目前為空白',
+'Newest user'	=>	'新註冊會員: %s',
+'Users online'	=>	'線上會員: %s',
+'Guests online'	=>	'線上訪客: %s',
+'No of users'	=>	'會員總數: %s',
+'No of topics'	=>	'文章總數: %s',
+'No of post'	=>	'回應總數: %s',
+'Online'		=>	'線上:', // As in "Online: User A, User B etc."
+'Board stats'	=>	'討論區狀態',
 
 //
 // Language for login.php
 //
 
-'Wrong user/pass'			=>	'Wrong username and/or password.',
-'Forgotten pass'			=>	'Forgotten password',
+'Wrong user/pass'			=>	'錯誤的使用者名稱或是密碼',
+'Forgotten pass'			=>	'忘記密碼',
 'No email match'			=>	'There is no user registered with the email address',
 'Request pass'				=>	'Request password',
-'Remember me'				=>	'Remember me',
+'Remember me'				=>	'記住我',
 'New password errors'		=>	'Password request error',
 'New passworderrors info'	=>	'The following error needs to be corrected before a new password can be sent:',
 
@@ -791,10 +791,10 @@ $lang = array(
 // Results
 //
 
-'Search results'					=>	'Search results',
+'Search results'					=>	'搜尋結果',
 'Quick search show_new'				=>	'New',
 'Quick search show_recent'			=>	'Active',
-'Quick search show_unanswered'		=>	'Unanswered',
+'Quick search show_unanswered'		=>	'尚未回覆',
 'Quick search show_user_topics'		=>	'Topics by %s',
 'Quick search show_user_posts'		=>	'Posts by %s',
 'Quick search show_subscriptions'	=>	'Subscribed by %s',
@@ -1063,7 +1063,7 @@ $lang = array(
 'General'							=>	'General',
 'Topics and posts'					=>	'Topics and posts',
 'User features'						=>	'User features',
-'Search'							=>	'Search',
+'Search'							=>	'搜尋',
 'Advanced'							=>	'Advanced',
 'Quick post help'					=>	'Show a quick post form so users can post a reaction from the topic view.',
 'Responsive post help'              =>  'Show "Post" and "Preview" button in topic view on small screens, leave quick post enabled when this is disabled to allow small devices to post comments.',
