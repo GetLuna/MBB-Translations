@@ -7,7 +7,7 @@ $lang = array(
 //
 
 'lang_direction'					=>	'ltr', // ltr (Left-To-Right) or rtl (Right-To-Left)
-'lang_identifier'					=>	'en',
+'lang_identifier'					=>	'zh-tw',
 
 //
 // Number and date formatting
@@ -43,8 +43,8 @@ $lang = array(
 'Announcement'						=>	'Announcement',
 'Options'							=>	'Global settings',
 'Features'							=>	'Features',
-'Submit'							=>	'Submit', // "Name" of submit buttons
-'Search'							=>	'Search',
+'Submit'							=>	'送出', // "Name" of submit buttons
+'Search'							=>	'搜尋',
 'Ban message'						=>	'You are banned from this forum.',
 'Ban message 2'						=>	'The ban expires at the end of',
 'Ban message 3'						=>	'The administrator or moderator that banned you left the following message:',
@@ -75,8 +75,8 @@ $lang = array(
 'Replies forum'						=>	'Replies',
 'Page'								=>	'Page %s',
 'BBCode'							=>	'BBCode',
-'img tag'							=>	'[img] tag',
-'Smilies'							=>	'Smilies',
+'img tag'							=>	'[img] 標籤',
+'Smilies'							=>	'表情符號',
 'and'								=>	'and',
 'Image link'						=>	'image', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
 'wrote'								=>	'wrote', // For [quote]'s
@@ -87,12 +87,12 @@ $lang = array(
 // Title
 //
 
-'Title'								=>	'Title',
-'Member'							=>	'Member',
-'Moderator'							=>	'Moderator',
-'Administrator'						=>	'Administrator',
-'Banned'							=>	'Banned',
-'Guest'								=>	'Guest',
+'Title'								=>	'標題',
+'Member'							=>	'會員',
+'Moderator'							=>	'版主',
+'Administrator'						=>	'管理員',
+'Banned'							=>	'封鎖',
+'Guest'								=>	'訪客',
 
 //
 // Stuff for include/parser.php
