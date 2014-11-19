@@ -31,9 +31,9 @@ $lang = array(
 'Pun include directory'				=>  'Unable to process user include %s from template %s. Directory traversal is not allowed',  
 'Pun include error'					=>  'Unable to process user include %s from template %s. There is no such file in neither the template directory nor in the user include directory',  
 'Settings saved'					=>  'Your settings have been saved.',
-'User deleted'						=>  'The user has been deleted.',
-'User failed'                       =>  'Failed to create user, no password was given.',
-'User created'                      =>  'User created',
+'User deleted'						=>  'Der Benutzer wurde gelöscht.',
+'User failed'                       =>  'Benutzer konnte nicht erstellt werden, da kein Passwort eingegeben wurde.',
+'User created'                      =>  'Benutzer erstellt',
 'Cache cleared'						=>  'The cache files have been removed.',
 
 //
@@ -43,9 +43,9 @@ $lang = array(
 'Announcement'						=>	'Ankündigung',
 'Options'							=>	'Globale Einstellungen',
 'Features'							=>	'Features',
-'Submit'							=>	'Submit', // "Name" of submit buttons
+'Submit'							=>	'Absenden', // "Name" of submit buttons
 'Search'							=>	'Suche',
-'Ban message'						=>	'You are banned from this forum.',
+'Ban message'						=>	'Du wurdest aus diesem Forum gebannt.',
 'Ban message 2'						=>	'The ban expires at the end of',
 'Ban message 3'						=>	'The administrator or moderator that banned you left the following message:',
 'Ban message 4'						=>	'Please direct any inquiries to the forum administrator at',
@@ -53,17 +53,17 @@ $lang = array(
 'Today'								=>	'Heute',
 'Yesterday'							=>	'Gestern',
 'Info'								=>	'Info', // A common table header
-'Maintenance'						=>	'Maintenance',
-'Invalid email'						=>	'The email address you entered is invalid.',
+'Maintenance'						=>	'Wartung',
+'Invalid email'						=>	'Die eingegebene Emailadresse ist inkorrekt.',
 'Required'							=>	'(Benötigt)',
-'required field'					=>	'is a required field in this form.', // For javascript form validation
+'required field'					=>	'ist ein benötigtes Feld in diesem Formular.', // For javascript form validation
 'Last post'							=>	'Letzter Post',
 'by'								=>	'von', // As in last post by some user
 'New posts'							=>	'Neue Posts', // The link that leads to the first new post
-'New posts info'					=>	'Go to the first new post in this topic.', // The popup text for new posts links
+'New posts info'					=>	'Gehe zum ersten neuen Beitrag in diesem Thema.', // The popup text for new posts links
 'Username'							=>	'Benutzername',
 'Password'							=>	'Passwort',
-'Send email'						=>	'Send email',
+'Send email'						=>	'Sende Email',
 'Moderated by'						=>	'Moderiert von',
 'Registered table'					=>	'Registriert',
 'Subject'							=>	'Titel',
@@ -78,7 +78,7 @@ $lang = array(
 'img tag'							=>	'[img] tag',
 'Smilies'							=>	'Smilies',
 'and'								=>	'und',
-'Image link'						=>	'image', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
+'Image link'						=>	'Bild', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
 'wrote'								=>	'schrieb', // For [quote]'s
 'Mailer'							=>	'%s Mailer', // As in "MyForums Mailer" in the signature of outgoing emails
 'Spacer'							=>	'…', // Ellipsis for paginate
@@ -103,7 +103,7 @@ $lang = array(
 'BBCode error invalid self-nesting'	=>	'[%s] was opened within itself, this is not allowed',
 'BBCode error no closing tag'		=>	'[%1$s] was found without a matching [/%1$s]',
 'BBCode error empty attribute'		=>	'[%s] tag had an empty attribute section',
-'BBCode list size error'			=>	'Your list was too long to parse, please make it smaller!',
+'BBCode list size error'			=>	'Deine Liste ist zu lang, bitte mach sie kleiner!',
 
 // Stuff for the navigator (top of every page)
 
@@ -145,18 +145,18 @@ $lang = array(
 'Unstick topic'						=>	'Thema abpinnen',
 'Stick topic'						=>	'Thema pinnen',
 'Moderate forum'					=>	'Forum moderieren',
-'Powered by'						=>	'Erschaffen dank %s',
+'Powered by'						=>	'Ermöglicht dank %s',
 'Thanks'							=>	'Danke dass du %s benutzt',
 
 //
 // Debug information
 //
 
-'Debug table'						=>	'Debug information',
-'Querytime'							=>	'Generated in %1$s seconds, %2$s queries executed',
-'Memory usage'						=>	'Memory usage: %1$s',
+'Debug table'						=>	'Debug Information',
+'Querytime'							=>	'Generiert in %1$s Sekunden, %2$s queries ausgeführt',
+'Memory usage'						=>	'Speicherauslastung: %1$s',
 'Peak usage'						=>	'(Peak: %1$s)',
-'Query times'						=>	'Time (s)',
+'Query times'						=>	'Zeit (s)',
 'Query'								=>	'Query',
 'Total query time'					=>	'Total query time: %s',
 
@@ -168,9 +168,9 @@ $lang = array(
 'Hi there'							=>	'Hallöchen, %s',
 'Welcome to'						=>	'Willkommen auf %s',
 'Change your avatar'				=>	'Ändere deinen Avatar',
-'Extend profile'					=>	'Extend your details',
-'Get help'							=>	'Get help',
-'Do not show again'					=>	'Don\'t show again',
+'Extend profile'					=>	'Vervollständige dein Profil',
+'Get help'							=>	'Finde Hilfe',
+'Do not show again'					=>	'Nicht noch einmal anzeigen',
 
 //
 // For extern.php RSS feed
@@ -190,8 +190,8 @@ $lang = array(
 // Admin related stuff in the header
 //
 
-'New reports'						=>	'There are new reports',
-'Maintenance mode enabled'			=>	'Maintenance mode is enabled!',
+'New reports'						=>	'Es gibt neue reports',
+'Maintenance mode enabled'			=>	'Wartungsmodus ist aktiviert!',
 
 //
 // Units for file sizes
@@ -302,8 +302,8 @@ $lang = array(
 'Preparsing item'				=>	'Preparsing %1$s %2$s …',
 'Rebuilding index item'			=>	'Rebuilding index for %1$s %2$s',
 
-'post'							=>	'post',
-'topic'							=>	'topic',
+'post'							=>	'Beitrag',
+'topic'							=>	'Thema',
 'signature'						=>	'Signatur',
 
 // Language for frontend
@@ -312,7 +312,7 @@ $lang = array(
 // Language for delete.php
 //
 
-'Delete post'			=>	'Delete post',
+'Delete post'			=>	'Lösche Beitrag',
 'Topic warning'			=>	'Warning! This is the first post in the topic, the whole topic will be permanently deleted.',
 'Delete info'			=>	'The post you have chosen to delete is set out below for you to review before proceeding.',
 'Reply by'				=>	'Antwort von %s - %s',
@@ -441,8 +441,8 @@ $lang = array(
 //
 
 'Wrong user/pass'			=>	'Falscher Benutzername und/oder Passwort.',
-'Forgotten pass'			=>	'Forgotten password',
-'No email match'			=>	'There is no user registered with the email address',
+'Forgotten pass'			=>	'Passwort vergessen',
+'No email match'			=>	'Es gibt keinen Benutzer mit dieser Emailadresse',
 'Request pass'				=>	'Request password',
 'Remember me'				=>	'Remember me',
 'New password errors'		=>	'Password request error',
@@ -495,15 +495,15 @@ $lang = array(
 
 'Open'							=>	'Öffnen',
 'Close'							=>	'Schließen',
-'Move topics'					=>	'Move topics',
-'Move to'						=>	'Move to',
+'Move topics'					=>	'Verschiebe Themen',
+'Move to'						=>	'Verschiebe nach',
 'Nowhere to move'				=>	'There are no forums into which you can move topics.',
 'Leave redirect'				=>	'Leave redirect topic(s)',
-'Delete topics'					=>	'Delete topics',
+'Delete topics'					=>	'Lösche Themen',
 'Delete topics comply'			=>	'Are you sure you want to delete the selected topics?',
 'No topics selected'			=>	'You must select at least one topic for move/delete/open/close.',
 'Not enough topics selected'	=>	'You must select at least two topics for merge.',
-'Merge topics'					=>	'Merge topics',
+'Merge topics'					=>	'Themen zusammenführen',
 'New subject'					=>	'New subject',
 
 //
@@ -525,7 +525,7 @@ $lang = array(
 // Get host
 //
 
-'Host info 1'					=>	'The IP address is: %s',
+'Host info 1'					=>	'Die IP-Addresse ist: %s',
 'Host info 2'					=>	'The host name is: %s',
 'Show more users'				=>	'Show more users for this IP',
 
@@ -551,10 +551,10 @@ $lang = array(
 'Post errors'		=>	'Post errors',
 'Post preview'		=>	'Beitragsvorschau',
 'Guest name'		=>	'Name', // For guests (instead of Username)
-'Post a reply'		=>	'Post a reply',
-'Post new topic'	=>	'Post topic',
+'Post a reply'		=>	'Antworten',
+'Post new topic'	=>	'Thema erstellen',
 'Hide smilies'		=>	'Never show smilies as icons for this post',
-'Subscribe topic'	=>	'Subscribe to this topic',
+'Subscribe topic'	=>	'Abonniere dieses Thema',
 'Stay subscribed'	=>	'Stay subscribed to this topic',
 'Topic review'		=>	'Topic review (newest first)',
 'Flood start'		=>  'At least %s seconds have to pass between posts. Please wait %s seconds and try posting again.',
@@ -565,21 +565,21 @@ $lang = array(
 //
 
 'Silent edit'		=>	'Stiller Edit (zeigt nicht "Editiert von..." in der Themenansicht)',
-'Edit post'			=>	'Post editieren',
+'Edit post'			=>	'Beitrag editieren',
 
 //
 // Language for both profile.php and register.php
 //
 
-'Email legend'				=>	'Enter a valid email address',
-'Time zone'					=>	'Time zone',
+'Email legend'				=>	'Gib eine korrekte Emailadresse ein',
+'Time zone'					=>	'Zeitzone',
 'DST'						=>	'Advance time by 1 hour for daylight saving.',
-'Time format'				=>	'Time format',
-'Date format'				=>	'Date format',
-'Default'					=>	'Default',
-'Language'					=>	'Language',
-'Email setting info'		=>	'Email settings',
-'Email setting 1'			=>	'Display your email address.',
+'Time format'				=>	'Zeitformat',
+'Date format'				=>	'DAtumsformat',
+'Default'					=>	'Standard',
+'Language'					=>	'Sprache',
+'Email setting info'		=>	'Email Einstellungen',
+'Email setting 1'			=>	'Zeige deine Emailadresse',
 'Email setting 2'			=>	'Hide your email address but allow form email.',
 'Email setting 3'			=>	'Hide your email address and disallow form email.',
 
@@ -591,7 +591,7 @@ $lang = array(
 'Username BBCode'			=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses. Please choose another username.',
 'Banned username'			=>	'The username you entered is banned in this forum. Please choose another username.',
 'Pass too short'			=>	'Passwords must be at least 6 characters long. Please choose another (longer) password.',
-'Pass not match'			=>	'Passwords do not match.',
+'Pass not match'			=>	'Passwörter stimmen nicht überein.',
 'Banned email'				=>	'The email address you entered is banned in this forum. Please choose another email address.',
 'Dupe email'				=>	'Someone else is already registered with that email address. Please choose another email address.',
 'Sig too long'				=>	'Signatures cannot be longer than %1$s characters. Please reduce your signature by %2$s characters.',
@@ -602,16 +602,16 @@ $lang = array(
 // Language for profile.php
 //
 
-'Section personality'			=>	'Personality',
+'Section personality'			=>	'Persönliches',
 'Section admin'					=>	'Administration',
 
 //
 // Miscellaneous
 //
 
-'Personal details legend'		=>	'Contact details',
+'Personal details legend'		=>	'Kontaktdetails',
 'User tools'					=>	'User tools',
-'Unknown'          				=>  'Unknown',
+'Unknown'          				=>  'Unbekannt',
 
 //
 // Password stuff
@@ -619,11 +619,11 @@ $lang = array(
 
 'Pass key bad'					=>	'The specified password activation key was incorrect or has expired. Please re-request a new password. If that fails, contact the forum administrator at',
 'Pass updated'					=>	'Your password has been updated. You can now login with your new password.',
-'Wrong pass'					=>	'Wrong old password.',
-'Change pass'					=>	'Change password',
-'Old pass'						=>	'Altes Password',
-'New pass'						=>	'Neues Password',
-'Confirm new pass'				=>	'Confirm new password',
+'Wrong pass'					=>	'Das alte Passwort ist falsch.',
+'Change pass'					=>	'Ändere Passwort',
+'Old pass'						=>	'Altes Passwort',
+'New pass'						=>	'Neues Passwort',
+'Confirm new pass'				=>	'Bestätige neues Passwort',
 'Pass info'						=>	'Passwords must be at least 6 characters long and are case sensitive',
 
 //
@@ -634,8 +634,8 @@ $lang = array(
 'Email updated'					=>	'Your email address has been updated.',
 'Activate email sent'			=>	'An email has been sent to the specified address with instructions on how to activate the new email address. If it doesn\'t arrive you can contact the forum administrator at',
 'Email instructions'			=>	'An email will be sent to your new address with an activation link. You must click the link in the email you receive to activate the new address.',
-'Change email'					=>	'Change email address',
-'New email'						=>	'New email',
+'Change email'					=>	'Ändere Emailadresse',
+'New email'						=>	'Neue Email',
 
 //
 // Avatar upload stuff
@@ -654,7 +654,7 @@ $lang = array(
 'Move failed'					=>	'The server was unable to save the uploaded file. Please contact the forum administrator at',
 'Unknown failure'				=>	'An unknown error occurred. Please try again.',
 'Avatar desc'					=>	'An avatar is a small image that will be displayed under your username in your posts. It must not be any bigger than',
-'Upload avatar'					=>	'Upload avatar',
+'Upload avatar'					=>	'Upload Avatar',
 'Delete avatar'					=>	'Lösche Avatar', // only for admins
 'File'							=>	'Datei',
 'Upload'						=>	'Upload', // submit button
@@ -673,12 +673,12 @@ $lang = array(
 'Last visit info'				=>	'Letzter Besuch',
 'Show posts'					=>	'Zeige Beiträge',
 'Show topics'					=>	'Zeige Themen',
-'Show subscriptions'			=>	'Show Abonnements',
+'Show subscriptions'			=>	'Zeige Abonnements',
 'Contact'						=>	'Kontakt',
 'Realname'						=>	'Echtname',
-'Location'						=>	'Location',
+'Location'						=>	'Ort',
 'Website'						=>	'Webseite',
-'Invalid website URL'			=>	'The website URL you entered is invalid.',
+'Invalid website URL'			=>	'Die Webseiten-URL, welche du eingegeben hast, ist inkorrekt.',
 'Microsoft'						=>	'Microsoft Account',
 'Facebook'						=>	'Facebook',
 'Twitter'						=>	'Twitter',
@@ -686,7 +686,7 @@ $lang = array(
 'Avatar'						=>	'Avatar',
 'Sig max size'					=>	'Max length: %s characters / Max lines: %s',
 'Avatar info'					=>	'An avatar is a small image that will be displayed with all your posts. You can upload an avatar by clicking the link below.',
-'Change avatar'					=>	'Change avatar',
+'Change avatar'					=>	'Ändere Avatar',
 'Signature info'				=>	'A signature is a small piece of text that is attached to your posts. In it, you can enter just about anything you like.',
 'Sig preview'					=>	'Current signature preview:',
 'No sig'						=>	'No signature currently stored in profile.',
@@ -710,7 +710,7 @@ $lang = array(
 //
 
 'Group membership legend'		=>	'Choose user group',
-'Save'							=>	'Save',
+'Save'							=>	'Speichern',
 'Set mods legend'				=>	'Set moderator access',
 'Moderator in info'				=>	'Choose which forums this user should be allowed to moderate. Note: This only applies to moderators. Administrators always have full permissions in all forums.',
 'Update forums'					=>	'Update forums',
@@ -728,11 +728,11 @@ $lang = array(
 //
 
 'No new regs'				=>	'This forum is not accepting new registrations.',
-'Forum rules'				=>	'Forum rules',
+'Forum rules'				=>	'Forumregeln',
 'Rules legend'				=>	'You must agree to the following in order to register',
 'Registration flood'		=>	'A new user was registered with the same IP address as you within the last hour. To prevent registration flooding, at least an hour has to pass between registrations from the same IP. Sorry for the inconvenience.',
-'Agree'						=>	'Agree',
-'Cancel'					=>	'Cancel',
+'Agree'						=>	'Akzeptieren',
+'Cancel'					=>	'Abbrechen',
 'Register legend'			=>	'Enter the requested data',
 
 //
@@ -771,7 +771,7 @@ $lang = array(
 'Search info'						=>	'To search by keyword, enter a term or terms to search for. Separate terms with spaces. Use AND, OR and NOT to refine your search. To search by author enter the username of the author whose posts you wish to search for. Use wildcard character * for partial matches.',
 'Keyword search'					=>	'Keyword search',
 'Author search'						=>	'Author search',
-'All forums'						=>	'All forums',
+'All forums'						=>	'Alle Foren',
 'Search in'							=>	'Suche in',
 'Message and subject'				=>	'Message text and topic subject',
 'Message only'						=>	'Message text only',
@@ -812,18 +812,18 @@ $lang = array(
 'No new posts'						=>	'There are no topics with new posts since your last visit.',
 'No recent posts'					=>	'No new posts have been made within the last 24 hours.',
 'No unanswered'						=>	'There are no unanswered posts in this forum.',
-'Go to post'						=>	'Go to post',
-'Go to topic'						=>	'Go to topic',
+'Go to post'						=>	'Gehe zum Beitrag',
+'Go to topic'						=>	'Gehe zum Thema',
 
 //
 // Language for viewtopic.php
 //
 
-'Post reply'		=>	'Antwort posten',
+'Post reply'		=>	'Antworten',
 'Topic closed'		=>	'Thema geschlossen',
 'From'				=>	'Ort:', // User location
 'IP address logged'	=>	'IP log',
-'Note'				=>	'Note:', // Admin note
+'Note'				=>	'Notiz:', // Admin note
 'Posts'				=>	'Beiträge:',
 'Replies'			=>	'Antworten:',
 'Last edit'			=>	'Zuletzt editiert von',
@@ -843,17 +843,17 @@ $lang = array(
 
 'User search info'	=>	'Enter a username to search for and/or a user group to filter by. Use the wildcard character * for partial matches.',
 'User group'		=>	'Benutzergruppe',
-'No of posts'		=>	'Postanzahl',
-'All users'			=>	'All users',
+'No of posts'		=>	'Beitragsanzahl',
+'All users'			=>	'Alle Benutzer',
 
 //
 // Language for viewforum.php
 //
 
-'Views'			=>	'Views',
+'Views'			=>	'Angesehen',
 'Moved'			=>	'Verschoben',
-'Star'			=>	'Star',
-'Sticky'		=>	'Sticky',
+'Star'			=>	'Stern',
+'Sticky'		=>	'Gepinnt',
 'Closed'		=>	'Geschlossen',
 'Empty forum'	=>	'Forum ist leer.',
 
@@ -862,7 +862,7 @@ $lang = array(
 // Language for backstage.php
 //
 
-'Update settings head'		=>	'Update settings',
+'Update settings head'		=>	'Update Einstellungen',
 'Index update check'		=>	'Check for updates every time the Backstage index is visited, if disabled, you won\'t see update notifications.',
 
 //
@@ -996,7 +996,7 @@ $lang = array(
 'Designed for'						=>	'Designed for ModernBB %s to %s',
 'Force style'						=>	'Force style',
 'Set as default'					=>	'Set as default',
-'About'								=>	'About',
+'About'								=>	'Über',
 'Version number help'				=>	'Show ModernBB version number in footer.',
 'Info in posts help'				=>	'Show information about the poster under the username in topic view.',
 'Post count help'					=>	'Show the number of posts a user has made in topic view, profile and user list.',
@@ -1026,7 +1026,7 @@ $lang = array(
 'Menu show user list'				=>	'Show the user list menu item.',
 'Menu show search'					=>	'Show the search menu item.',
 'Menu show rules'					=>	'Show the rules menu item.',
-'User profile head'					=>	'User profile',
+'User profile head'					=>	'Benutzerprofil',
 'Title settings head'				=>	'Title settings',
 'Title in menu'						=>	'Show board title in menu.',
 'Title in header'					=>	'Show board title in header.',
@@ -1095,9 +1095,9 @@ $lang = array(
 // Entry page
 //
 
-'Add forum'					=>	'Add forum',
-'Update positions'			=>	'Update positions',
-'Confirm delete head'		=>	'Confirm delete forum',
+'Add forum'					=>	'Forum hinzufügen',
+'Update positions'			=>	'Positionen aktualisieren',
+'Confirm delete head'		=>	'Bestätige Löschen des Forums',
 'Confirm delete forum info'	=>	'Are you sure that you want to delete the forum <strong>%s</strong>?',
 'Confirm delete forum'		=>	'Warning! Deleting a forum will delete all posts (if any) in that forum!',
 
@@ -1105,14 +1105,14 @@ $lang = array(
 // Detailed edit page
 //
 
-'Edit forum head'			=>	'Edit forum',
-'Edit details subhead'		=>	'Edit forum details',
-'Forum name label'			=>	'Forum name',
-'Forum description label'	=>	'Description',
-'Category label'			=>	'Category',
-'Sort by label'				=>	'Sort topics by',
+'Edit forum head'			=>	'Forum bearbeiten',
+'Edit details subhead'		=>	'Bearbeite Forumdetails',
+'Forum name label'			=>	'Forumname',
+'Forum description label'	=>	'Beschreibung',
+'Category label'			=>	'Kategorie',
+'Sort by label'				=>	'Sortiere Themen nach',
 'Topic start'				=>	'Topic start',
-'User groups'				=>	'User groups',
+'User groups'				=>	'Benutzergruppen',
 'Redirect label'			=>	'Redirect URL',
 'Group permissions subhead'	=>	'Edit group permissions',
 'Group permissions info'	=>	'In this form, you can set the forum specific permissions for the different user groups. Administrators always have full permissions. Permission settings that differ from the default permissions for the user group are marked red. Some permissions are disabled under some conditions.',
@@ -1206,9 +1206,9 @@ $lang = array(
 'view'								=>	'view',
 'users'								=>	'users',
 
-'Not available'						=>	'Not available',
+'Not available'						=>	'Nicht verfügbar',
 'NA'								=>	'N/A',
-'About head'						=>	'About ModernBB',
+'About head'						=>	'Über ModernBB',
 'ModernBB version label'			=>	'ModernBB version',
 'ModernBB version data'				=>	'ModernBB version ',
 'Server statistics label'			=>	'Server statistics',
@@ -1233,7 +1233,7 @@ $lang = array(
 // Reports
 //
 
-'Date and time'						=>	'Date and time',
+'Date and time'						=>	'Datum und Zeit',
 'No new reports'					=>	'There are no new reports.',
 
 //
@@ -1288,7 +1288,7 @@ $lang = array(
 // Language for settings.php
 //
 
-'Options head'						=>	'Global settings',
+'Options head'						=>	'Globale Einstellungen',
 
 //
 // Essentials section
@@ -1352,7 +1352,7 @@ $lang = array(
 //
 
 'Timeouts subhead'					=>	'Time and timeouts',
-'PHP manual'						=>	'PHP manual',
+'PHP manual'						=>	'PHP Handbuch',
 'Time format help'					=>	'Now: %s. See %s for more info',
 'Date format help'					=>	'Now: %s. See %s for more info',
 'Visit timeout label'				=>	'Visit timeout',
@@ -1390,7 +1390,7 @@ $lang = array(
 // Avatars section
 //
 
-'Avatars subhead'					=>	'Avatars',
+'Avatars subhead'					=>	'Avatare',
 'Use avatars label'					=>	'Use avatars',
 'Use avatars help'					=>	'Enable so users can upload avatars.',
 'Upload directory label'			=>	'Upload directory',
@@ -1423,7 +1423,7 @@ $lang = array(
 // Announcement Section
 //
 
-'Announcements'						=>	'Announcements',
+'Announcements'						=>	'Ankündigungen',
 'Display announcement help'			=>	'Enable this to display the below message in the board.',
 
 //
@@ -1577,7 +1577,7 @@ $lang = array(
 // Create new user
 //
 
-'Add user head'				=>	'Add user',
+'Add user head'				=>	'Benutzer hinzufügen',
 'Random password info'		=>	'Generate a random password, this will be emailed to the above address. When checked, leave "Password" empty.',
 
 //
@@ -1627,20 +1627,20 @@ $lang = array(
 //
 
 'Admin'					=>	'Admin',
-'Go back'				=>	'Go back',
+'Go back'				=>	'Zurück',
 'Update'				=>	'Update',
-'Add'					=>	'Add',
-'Remove'				=>	'Remove',
-'Yes'					=>	'Yes',
-'No'					=>	'No',
-'here'					=>	'here',
+'Add'					=>	'Hinzufügen',
+'Remove'				=>	'Entfernen',
+'Yes'					=>	'Ja',
+'No'					=>	'Nein',
+'here'					=>	'hier',
 'Action'				=>	'Action',
-'Maintenance mode'		=>	'maintenance mode', // Used for link text in more than one file
+'Maintenance mode'		=>	'Wartungsmodus', // Used for link text in more than one file
 
 // Cookie bar
-'Cookie bar'			=>	'Cookie bar',
+'Cookie bar'			=>	'Cookie-Leiste',
 'Cookie info'			=>	'We use cookies to give you the best experience on this board.',
-'More info'				=>	'More info',
+'More info'				=>	'Mehr Informationen',
 'Cookie set info'		=>	'Show a bar with information about cookies at the bottom of the page.',
 
 //
@@ -1656,9 +1656,9 @@ $lang = array(
 
 // Email - activate_email.tpl
 'activate_email.tpl'          =>
-'Subject: Change email address requested
+'Betreff: Change email address requested
 
-Hello <username>,
+Hallo <username>,
 
 You have requested to have a new email address assigned to your account in the discussion forum at <base_url>. If you did not request this or if you do not want to change your email address you should just ignore this message. Only if you visit the activation page below will your email address be changed. In order for the activation page to work, you must be logged in to the forum.
 
@@ -1673,9 +1673,9 @@ To change your email address, please visit the following page:
 // Email - activate_password.tpl
 //
 'activate_password.tpl'          =>
-'Subject: New password requested
+'Betreff: New password requested
 
-Hello <username>,
+Hallo <username>,
 
 You have requested to have a new password assigned to your account in the discussion forum at <base_url>. If you did not request this or if you do not want to change your password you should just ignore this message. Only if you visit the activation page below will your password be changed.
 
@@ -1690,7 +1690,7 @@ To change your password, please visit the following page:
 
 // Email - banned_email_change.tpl
 'banned_email_change.tpl'          =>
-'Subject: Alert - Banned email detected
+'Betreff: Alert - Banned email detected
 
 User "<username>" changed to banned email address: <email>
 
@@ -1702,7 +1702,7 @@ User profile: <profile_url>
 
 // Email - banned_email_post.tpl
 'banned_email_post.tpl'          =>
-'Subject: Alert - Banned email detected
+'Betreff: Alert - Banned email detected
 
 User "<username>" posted with banned email address: <email>
 
