@@ -22,19 +22,19 @@ $lang = array(
 // Notices
 //
 
-'Bad request'						=>	'Bad request. The link you followed is incorrect, outdated or you\'re simply not allowed to hang around here.',
-'No view'							=>	'You do not have permission to view this page.',
-'Bad referrer'						=>	'Bad HTTP_REFERER. You were referred to this page from an unauthorized source. If the problem persists please make sure that \'Base URL\' is correctly set in Admin/Options and that you are visiting the forum by navigating to that URL. More information regarding the referrer check can be found in the ModernBB documentation.',
-'No permission'						=>	'You do not have permission to access this page.',
-'No cookie'							=>	'You appear to have logged in successfully, however a cookie has not been set. Please check your settings and if applicable, enable cookies for this website.',
+'Bad request'						=>	'Ungültige Anfrage. Der Link, dem du gefolgt bist, ist inkorrekt, abgelaufen oder du hast einfach nicht die Erlaubnis hier abzuhängen.',
+'No view'							=>	'Du hast nicht die Erlaubnis diese Seite zu betrachten.',
+'Bad referrer'						=>	'Ungültiger HTTP_REFERER. You were referred to this page from an unauthorized source. If the problem persists please make sure that \'Base URL\' is correctly set in Admin/Options and that you are visiting the forum by navigating to that URL. More information regarding the referrer check can be found in the ModernBB documentation.',
+'No permission'						=>	'Du hast nicht die Erlaubnis diese Seite zu betreten.',
+'No cookie'							=>	'Du scheinst dich erfolgreich eingeloggt zu haben, jedoch wurde kein Cookie gesetzt. Bitte überprüfe deine Einstellungen und wenn möglich, aktiviere Cookies für diese Webseite.',
 'Pun include extension'				=>  'Unable to process user include %s from template %s. "%s" files are not allowed',  
 'Pun include directory'				=>  'Unable to process user include %s from template %s. Directory traversal is not allowed',  
 'Pun include error'					=>  'Unable to process user include %s from template %s. There is no such file in neither the template directory nor in the user include directory',  
-'Settings saved'					=>  'Your settings have been saved.',
+'Settings saved'					=>  'Deine Einstellungen wurden gespeichert.',
 'User deleted'						=>  'Der Benutzer wurde gelöscht.',
 'User failed'                       =>  'Benutzer konnte nicht erstellt werden, da kein Passwort eingegeben wurde.',
 'User created'                      =>  'Benutzer erstellt',
-'Cache cleared'						=>  'The cache files have been removed.',
+'Cache cleared'						=>  'Die Cache-Dateien wurden entfernt.',
 
 //
 // Miscellaneous
@@ -47,7 +47,7 @@ $lang = array(
 'Search'							=>	'Suche',
 'Ban message'						=>	'Du wurdest aus diesem Forum gebannt.',
 'Ban message 2'						=>	'The ban expires at the end of',
-'Ban message 3'						=>	'The administrator or moderator that banned you left the following message:',
+'Ban message 3'						=>	'Der Administrator oder Moderator, welcher dich gebannt hat, hinterließ folgende Nachricht:',
 'Ban message 4'						=>	'Please direct any inquiries to the forum administrator at',
 'Never'								=>	'Niemals',
 'Today'								=>	'Heute',
@@ -63,7 +63,7 @@ $lang = array(
 'New posts info'					=>	'Gehe zum ersten neuen Beitrag in diesem Thema.', // The popup text for new posts links
 'Username'							=>	'Benutzername',
 'Password'							=>	'Passwort',
-'Send email'						=>	'Sende Email',
+'Send email'						=>	'Email senden',
 'Moderated by'						=>	'Moderiert von',
 'Registered table'					=>	'Registriert',
 'Subject'							=>	'Titel',
@@ -98,11 +98,11 @@ $lang = array(
 // Stuff for include/parser.php
 //
 
-'BBCode error no opening tag'		=>	'[/%1$s] was found without a matching [%1$s]',
-'BBCode error invalid nesting'		=>	'[%1$s] was opened within [%2$s], this is not allowed',
-'BBCode error invalid self-nesting'	=>	'[%s] was opened within itself, this is not allowed',
-'BBCode error no closing tag'		=>	'[%1$s] was found without a matching [/%1$s]',
-'BBCode error empty attribute'		=>	'[%s] tag had an empty attribute section',
+'BBCode error no opening tag'		=>	'[/%1$s] wurde gefunden ohne ein passendes [%1$s]',
+'BBCode error invalid nesting'		=>	'[%1$s] wurde geöffnet innerhalb [%2$s], das ist nicht erlaubt',
+'BBCode error invalid self-nesting'	=>	'[%s] wurde in sich selbst geöffnet, das ist nicht erlaubt',
+'BBCode error no closing tag'		=>	'[%1$s] wurde gefunden ohne ein passendes [/%1$s]',
+'BBCode error empty attribute'		=>	'[%s] tag hat keine Attribute',
 'BBCode list size error'			=>	'Deine Liste ist zu lang, bitte mach sie kleiner!',
 
 // Stuff for the navigator (top of every page)
@@ -126,10 +126,10 @@ $lang = array(
 'Active topics'						=>	'Aktiv',
 'Unanswered topics'					=>	'Unbeantwortet',
 'Posted topics'						=>	'Posted',
-'Show new posts'					=>	'Find topics with new posts since your last visit.',
-'Show active topics'				=>	'Find topics with recent posts.',
-'Show unanswered topics'			=>	'Find topics with no replies.',
-'Show posted topics'				=>	'Find topics you have posted to.',
+'Show new posts'					=>	'Finde Themen mit neuen Beiträgen seit deinem letzten Besuch.',
+'Show active topics'				=>	'Finde Themen mit aktuellen Beiträgen.',
+'Show unanswered topics'			=>	'Finde Themen ohne Antworten.',
+'Show posted topics'				=>	'Finde Themen, in welchen du geantwortet hast.',
 'Mark as read'						=>	'Als gelesen markieren',
 'Title separator'					=>	' / ',
 
@@ -152,10 +152,10 @@ $lang = array(
 // Debug information
 //
 
-'Debug table'						=>	'Debug Information',
+'Debug table'						=>	'Debug-Information',
 'Querytime'							=>	'Generiert in %1$s Sekunden, %2$s queries ausgeführt',
 'Memory usage'						=>	'Speicherauslastung: %1$s',
-'Peak usage'						=>	'(Peak: %1$s)',
+'Peak usage'						=>	'(Spitze: %1$s)',
 'Query times'						=>	'Zeit (s)',
 'Query'								=>	'Query',
 'Total query time'					=>	'Total query time: %s',
@@ -164,20 +164,20 @@ $lang = array(
 // First run
 //
 
-'First run message'					=>	'Wow, it\'s great to have you here, welcome and thanks for joining us. We\'ve set up your account and you\'re ready to go. Through we like to point out some actions you might want to do first.',
-'Hi there'							=>	'Hallöchen, %s',
+'First run message'					=>	'Wow, es ist großartig dich hier zu sehen; Willkommen und danke, dass du uns beigetreten bist. Wir haben deinen Account erstellt und du kannst sofort los legen. Gern unterstützen wir dich bei deinen ersten Schritten.',
+'Hi there'							=>	'Hallo, %s',
 'Welcome to'						=>	'Willkommen auf %s',
 'Change your avatar'				=>	'Ändere deinen Avatar',
 'Extend profile'					=>	'Vervollständige dein Profil',
-'Get help'							=>	'Finde Hilfe',
+'Get help'							=>	'Hier findest du Hilfe',
 'Do not show again'					=>	'Nicht noch einmal anzeigen',
 
 //
 // For extern.php RSS feed
 //
 
-'RSS description'					=>	'The most recent topics at %s.',
-'RSS description topic'				=>	'The most recent posts in %s.',
+'RSS description'					=>	'Die Top Themen auf %s.',
+'RSS description topic'				=>	'Die Top Beiträge auf %s.',
 'RSS reply'							=>	'Re: ', // The topic subject will be appended to this string (to signify a reply)
 'RSS active topics feed'			=>	'RSS active topics feed',
 'Atom active topics feed'			=>	'Atom active topics feed',
@@ -190,7 +190,7 @@ $lang = array(
 // Admin related stuff in the header
 //
 
-'New reports'						=>	'Es gibt neue reports',
+'New reports'						=>	'Es gibt neue Berichte',
 'Maintenance mode enabled'			=>	'Wartungsmodus ist aktiviert!',
 
 //
@@ -288,16 +288,16 @@ $lang = array(
 // Language for updating
 //
 
-'Update ModernBB'				=>	'Update ModernBB',
-'Down'							=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
+'Update ModernBB'				=>	'Aktualisiere ModernBB',
+'Down'							=>	'Die Foren sind kurzzeitig aufgrund von Wartungsarbeiten geschlossen. Bitte versuche es in ein paar Minuten noch einmal.',
 
 'Version mismatch error'		=>	'Version mismatch. The database \'%s\' doesn\'t seem to be running a ModernBB database schema supported by this update script.',
 'No update error'				=>	'Your forum is already as up-to-date as this script can make it',
 
-'Start update'					=>	'Start update',
-'Correct errors'				=>	'The following errors need to be corrected:',
-'Successfully updated'			=>	'Your forum database was successfully updated. You may now %s.',
-'go to index'					=>	'go to the forum index',
+'Start update'					=>	'Starte Aktualisierung',
+'Correct errors'				=>	'Die folgenden Fehler müssen korrigiert werden:',
+'Successfully updated'			=>	'Deine Forendatenbank wurde erfolgreich aktualisiert. Du möchtest vielleicht %s.',
+'go to index'					=>	'zurück zum Forumindex',
 
 'Preparsing item'				=>	'Preparsing %1$s %2$s …',
 'Rebuilding index item'			=>	'Rebuilding index for %1$s %2$s',
@@ -313,7 +313,7 @@ $lang = array(
 //
 
 'Delete post'			=>	'Lösche Beitrag',
-'Topic warning'			=>	'Warning! This is the first post in the topic, the whole topic will be permanently deleted.',
+'Topic warning'			=>	'Warnung! Dies ist der erste Beitrag in diesem Thema, das gesamte Thema wird unwiderruflich gelöscht.',
 'Delete info'			=>	'The post you have chosen to delete is set out below for you to review before proceeding.',
 'Reply by'				=>	'Antwort von %s - %s',
 'Topic by'				=>	'Thema gestartet von %s - %s',
@@ -327,7 +327,7 @@ $lang = array(
 
 'BBCode info'			=>	'BBCode is a collection of tags that are used to change the look of text in this forum. Below you can find all the available BBCodes and how to use them. Administrators have the ability to disable BBCode. You can tell if BBCode is disabled whenever you post a message or edit your signature.',
 
-'Text style'			=>	'Text style',
+'Text style'			=>	'Textformatierung',
 'Text style info'		=>	'The following tags change the appearance of text:',
 'Bold text'				=>	'Bold text',
 'Underlined text'		=>	'Underlined text',
@@ -348,7 +348,7 @@ $lang = array(
 'Video info'			=>  'ModernBB supports embedding from DailyMotion, Vimeo and YouTube. With the BBCode below, you can embed one of those services videos.',
 'Video link'			=>  'Put the link to the video here', 
 
-'Quotes'				=>	'Quotes',
+'Quotes'				=>	'Zitate',
 'Quotes info'			=>	'If you want to quote someone, you should use the quote tag.',
 'Quotes info 2'			=>	'If you don\'t want to quote anyone in particular, you can use the quote tag without specifying a name. If a username contains the characters [ or ] you can enclose it in quote marks.',
 'Quote text'			=>	'This is the text I want to quote.',
@@ -359,7 +359,7 @@ $lang = array(
 'Code text'				=>	'This is some code.',
 'produces code box'		=>	'produces a code box like this:',
 
-'Lists'					=>	'Lists',
+'Lists'					=>	'Listen',
 'List info'				=>	'To create a list you can use the list tag. You can create 2 types of lists using the list tag.',
 'List text 1'			=>	'Example list item 1.',
 'List text 2'			=>	'Example list item 2.',
@@ -443,10 +443,10 @@ $lang = array(
 'Wrong user/pass'			=>	'Falscher Benutzername und/oder Passwort.',
 'Forgotten pass'			=>	'Passwort vergessen',
 'No email match'			=>	'Es gibt keinen Benutzer mit dieser Emailadresse',
-'Request pass'				=>	'Request password',
-'Remember me'				=>	'Remember me',
-'New password errors'		=>	'Password request error',
-'New passworderrors info'	=>	'The following error needs to be corrected before a new password can be sent:',
+'Request pass'				=>	'Neues Passwort anfordern',
+'Remember me'				=>	'An mich erinnern',
+'New password errors'		=>	'Passwort-Anforderung fehlgeschlagen',
+'New passworderrors info'	=>	'Die folgenden Fehler müssen korrigiert werden, bevor ein neues Passwort gesendet werden kann:',
 
 'Forget mail'				=>	'An email has been sent to the specified address with instructions on how to change your password. If it does not arrive you can contact the forum administrator at',
 'Password request flood'	=>  'This account has already requested a password reset in the past hour. Please wait %s minutes before requesting a new password again.',
@@ -456,22 +456,22 @@ $lang = array(
 //
 
 'Form email disabled'			=>	'The user you are trying to send an email to has disabled form email.',
-'No email subject'				=>	'You must enter a subject.',
-'No email message'				=>	'You must enter a message.',
-'Too long email message'		=>	'Messages cannot be longer than 65535 characters (64 KB).',
-'Email flood'					=>  'At least %s seconds have to pass between sent emails. Please wait %s seconds and try sending again.',
-'Send email to'					=>	'Send email to',
+'No email subject'				=>	'Du musst einen Betreff eingeben.',
+'No email message'				=>	'Du musst eine Nachricht eingeben.',
+'Too long email message'		=>	'Nachrichten können nicht länger als 65535 Zeichen (64 KB) sein.',
+'Email flood'					=>  'Mindestens %s Sekunden müssen zwischen dem Versenden von Emails liegen. Bitte warte %s Sekunden und versuche es noch einmal.',
+'Send email to'					=>	'Email gesendet an',
 
 //
 // Report
 //
 
-'No reason'						=>	'You must enter a reason.',
-'Reason too long'				=>	'Your message must be under 65535 bytes (~64kb).',
-'Report flood'					=>  'At least %s seconds have to pass between reports. Please wait %s seconds and try sending again.',
-'Report post'					=>	'Report post',
-'Reason'						=>	'Reason',
-'Reason desc'					=>	'Please enter a short reason why you are reporting this post',
+'No reason'						=>	'Du musst einen Grund angeben.',
+'Reason too long'				=>	'Deine Nachricht muss kleiner sein als 65535 bytes (~64kb).',
+'Report flood'					=>  'Mindestens %s Sekunden müssen zwischen dem Einreichen von Meldungen liegen. Bitte warte %s Sekunden und versuche es noch einmal.',
+'Report post'					=>	'Beitrag melden',
+'Reason'						=>	'Grund',
+'Reason desc'					=>	'Bitte gib einen kurzen Grund ein, warum du diesen Beitrag meldest',
 
 //
 // Subscriptions
@@ -487,7 +487,7 @@ $lang = array(
 'Select'						=>	'Auswählen', // the header of a column of checkboxes
 'Move'							=>	'Verschieben',
 'Split'							=>	'Splitten',
-'Merge'							=>	'Zusammenfügen',
+'Merge'							=>	'Zusammenführen',
 
 //
 // Moderate forum
@@ -497,14 +497,14 @@ $lang = array(
 'Close'							=>	'Schließen',
 'Move topics'					=>	'Verschiebe Themen',
 'Move to'						=>	'Verschiebe nach',
-'Nowhere to move'				=>	'There are no forums into which you can move topics.',
+'Nowhere to move'				=>	'Es gibt keine Foren, in welche du Themen verschieben kannst.',
 'Leave redirect'				=>	'Leave redirect topic(s)',
 'Delete topics'					=>	'Lösche Themen',
-'Delete topics comply'			=>	'Are you sure you want to delete the selected topics?',
-'No topics selected'			=>	'You must select at least one topic for move/delete/open/close.',
-'Not enough topics selected'	=>	'You must select at least two topics for merge.',
+'Delete topics comply'			=>	'Bist du dir sicher, dass du die ausgewählten Themen löschen möchtest?',
+'No topics selected'			=>	'Du musst mindestens ein Thema zum Verschieben/Löschen/Öffnen/Schließen auswählen.',
+'Not enough topics selected'	=>	'Du musst mindestens zwei Themen zum Zusammenführen auswählen.',
 'Merge topics'					=>	'Themen zusammenführen',
-'New subject'					=>	'New subject',
+'New subject'					=>	'Neuer Titel',
 
 //
 // Split multiple posts in topic
@@ -517,24 +517,24 @@ $lang = array(
 //
 
 'Delete posts'					=>	'Lösche Beiträge',
-'Cannot select first'			=>	'First post cannot be selected for split/delete.',
-'Delete posts comply'			=>	'Are you sure you want to delete the selected posts?',
-'No posts selected'				=>	'You must select at least one post for split/delete.',
+'Cannot select first'			=>	'Der erste Beitrag kann nicht gesplittet/gelöscht werden.',
+'Delete posts comply'			=>	'Bist du dir sicher, dass du die ausgewählten Beiträge löschen möchtest?',
+'No posts selected'				=>	'Du musst mindestens einen Beitrag zum Splitten/Löschen auswählen.',
 
 //
 // Get host
 //
 
 'Host info 1'					=>	'Die IP-Addresse ist: %s',
-'Host info 2'					=>	'The host name is: %s',
-'Show more users'				=>	'Show more users for this IP',
+'Host info 2'					=>	'Der Hostname ist: %s',
+'Show more users'				=>	'Zeige mehr Benutzer für diese IP',
 
 //
 // Language for post.php and edit.php
 // Post validation stuff (many are similiar to those in edit.php)
 //
 
-'No subject'		=>	'Topics must contain a subject.',
+'No subject'		=>	'Themen müssen einen Titel haben.',
 'No subject after censoring'	=>	'Topics must contain a subject. After applying censoring filters, your subject was empty.',
 'Too long subject'	=>	'Subjects cannot be longer than 70 characters.',
 'No message'		=>	'You must enter a message.',
@@ -548,12 +548,12 @@ $lang = array(
 // Posting
 //
 
-'Post errors'		=>	'Post errors',
+'Post errors'		=>	'Beitragsfehler',
 'Post preview'		=>	'Beitragsvorschau',
 'Guest name'		=>	'Name', // For guests (instead of Username)
 'Post a reply'		=>	'Antworten',
 'Post new topic'	=>	'Thema erstellen',
-'Hide smilies'		=>	'Never show smilies as icons for this post',
+'Hide smilies'		=>	'Zeige keine Icons für Smileys in diesem Post',
 'Subscribe topic'	=>	'Abonniere dieses Thema',
 'Stay subscribed'	=>	'Stay subscribed to this topic',
 'Topic review'		=>	'Topic review (newest first)',
@@ -575,10 +575,10 @@ $lang = array(
 'Time zone'					=>	'Zeitzone',
 'DST'						=>	'Advance time by 1 hour for daylight saving.',
 'Time format'				=>	'Zeitformat',
-'Date format'				=>	'DAtumsformat',
+'Date format'				=>	'Datumsformat',
 'Default'					=>	'Standard',
 'Language'					=>	'Sprache',
-'Email setting info'		=>	'Email Einstellungen',
+'Email setting info'		=>	'Email-Einstellungen',
 'Email setting 1'			=>	'Zeige deine Emailadresse',
 'Email setting 2'			=>	'Hide your email address but allow form email.',
 'Email setting 3'			=>	'Hide your email address and disallow form email.',
@@ -610,7 +610,7 @@ $lang = array(
 //
 
 'Personal details legend'		=>	'Kontaktdetails',
-'User tools'					=>	'User tools',
+'User tools'					=>	'Benutzertools',
 'Unknown'          				=>  'Unbekannt',
 
 //
@@ -624,7 +624,7 @@ $lang = array(
 'Old pass'						=>	'Altes Passwort',
 'New pass'						=>	'Neues Passwort',
 'Confirm new pass'				=>	'Bestätige neues Passwort',
-'Pass info'						=>	'Passwords must be at least 6 characters long and are case sensitive',
+'Pass info'						=>	'Passwörter müssen mindestens 6 Zeichen lang sein sowie Groß- und Kleinschreibung beinhalten.',
 
 //
 // Email stuff
@@ -651,13 +651,13 @@ $lang = array(
 'Too large'						=>	'The file you tried to upload is larger than the maximum allowed',
 'pixels'						=>	'Pixel',
 'bytes'							=>	'Bytes',
-'Move failed'					=>	'The server was unable to save the uploaded file. Please contact the forum administrator at',
-'Unknown failure'				=>	'An unknown error occurred. Please try again.',
+'Move failed'					=>	'Der Server konnte die hochgeladene Datei nicht speichern. Bitte kontaktiere den Forenadministrator via',
+'Unknown failure'				=>	'Ein unbekannter Fehler ist aufgetreten. Bitte versuche es noch einmal.',
 'Avatar desc'					=>	'An avatar is a small image that will be displayed under your username in your posts. It must not be any bigger than',
-'Upload avatar'					=>	'Upload Avatar',
+'Upload avatar'					=>	'Avatar hochladen',
 'Delete avatar'					=>	'Lösche Avatar', // only for admins
 'File'							=>	'Datei',
-'Upload'						=>	'Upload', // submit button
+'Upload'						=>	'Hochladen', // submit button
 
 //
 // Form validation stuff
@@ -686,7 +686,7 @@ $lang = array(
 'Avatar'						=>	'Avatar',
 'Sig max size'					=>	'Max length: %s characters / Max lines: %s',
 'Avatar info'					=>	'An avatar is a small image that will be displayed with all your posts. You can upload an avatar by clicking the link below.',
-'Change avatar'					=>	'Ändere Avatar',
+'Change avatar'					=>	'Avatar ändern',
 'Signature info'				=>	'A signature is a small piece of text that is attached to your posts. In it, you can enter just about anything you like.',
 'Sig preview'					=>	'Current signature preview:',
 'No sig'						=>	'No signature currently stored in profile.',
@@ -701,7 +701,7 @@ $lang = array(
 'Show avatars'					=>	'Show user avatars in posts.',
 'Show sigs'						=>	'Show user signatures.',
 'Style'							=>	'Style',
-'Backstage Accent'				=>	'Backstage Accent',
+'Backstage Accent'				=>	'Backstage-Farbe',
 'Admin note'					=>	'Admin note',
 'Post display'					=>	'Post display',
 
@@ -727,13 +727,13 @@ $lang = array(
 // Language for register.php
 //
 
-'No new regs'				=>	'This forum is not accepting new registrations.',
+'No new regs'				=>	'Dieses Forum akzeptiert keine neuen Registrierungen.',
 'Forum rules'				=>	'Forumregeln',
 'Rules legend'				=>	'You must agree to the following in order to register',
 'Registration flood'		=>	'A new user was registered with the same IP address as you within the last hour. To prevent registration flooding, at least an hour has to pass between registrations from the same IP. Sorry for the inconvenience.',
 'Agree'						=>	'Akzeptieren',
 'Cancel'					=>	'Abbrechen',
-'Register legend'			=>	'Enter the requested data',
+'Register legend'			=>	'Gib die benötigten Daten ein',
 
 //
 // Form validation stuff (some of these are also used in post.php)
