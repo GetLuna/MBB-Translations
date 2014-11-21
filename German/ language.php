@@ -23,9 +23,9 @@ $lang = array(
 //
 
 'Bad request'						=>	'Ungültige Anfrage. Der Link, dem du gefolgt bist, ist inkorrekt, abgelaufen oder du hast einfach nicht die Erlaubnis hier abzuhängen.',
-'No view'							=>	'Du hast nicht die Erlaubnis diese Seite zu betrachten.',
+'No view'							=>	'Du hast nicht die Erlaubnis, diese Seite zu betrachten.',
 'Bad referrer'						=>	'Ungültiger HTTP_REFERER. You were referred to this page from an unauthorized source. If the problem persists please make sure that \'Base URL\' is correctly set in Admin/Options and that you are visiting the forum by navigating to that URL. More information regarding the referrer check can be found in the ModernBB documentation.',
-'No permission'						=>	'Du hast nicht die Erlaubnis diese Seite zu betreten.',
+'No permission'						=>	'Du hast nicht die Erlaubnis, diese Seite zu betreten.',
 'No cookie'							=>	'Du scheinst dich erfolgreich eingeloggt zu haben, jedoch wurde kein Cookie gesetzt. Bitte überprüfe deine Einstellungen und wenn möglich, aktiviere Cookies für diese Webseite.',
 'Pun include extension'				=>  'Unable to process user include %s from template %s. "%s" files are not allowed',  
 'Pun include directory'				=>  'Unable to process user include %s from template %s. Directory traversal is not allowed',  
@@ -323,19 +323,19 @@ $lang = array(
 // Language for help.php
 //
 
-'produces'				=>	'produces',
+'produces'				=>	'produziert',
 
 'BBCode info'			=>	'BBCode is a collection of tags that are used to change the look of text in this forum. Below you can find all the available BBCodes and how to use them. Administrators have the ability to disable BBCode. You can tell if BBCode is disabled whenever you post a message or edit your signature.',
 
 'Text style'			=>	'Textformatierung',
-'Text style info'		=>	'The following tags change the appearance of text:',
-'Bold text'				=>	'Bold text',
-'Underlined text'		=>	'Underlined text',
-'Italic text'			=>	'Italic text',
-'Strike-through text'	=>	'Strike-through text',
-'Red text'				=>	'Red text',
-'Blue text'				=>	'Blue text',
-'Heading text'			=>	'Heading text',
+'Text style info'		=>	'Die folgenden Tags verändern die Darstellung des Textes:',
+'Bold text'				=>	'Fetter Text',
+'Underlined text'		=>	'Unterstrichener Text',
+'Italic text'			=>	'Kursiver Text',
+'Strike-through text'	=>	'Durchgestrichener Text',
+'Red text'				=>	'Roter Text',
+'Blue text'				=>	'Blauer Text',
+'Heading text'			=>	'Überschrift',
 'Inserted text'			=>	'Inserted text',
 'Sub text'				=>	'Subscript text',
 'Sup text'				=>	'Superscript text',
