@@ -46,9 +46,9 @@ $lang = array(
 'Submit'							=>	'Absenden', // "Name" of submit buttons
 'Search'							=>	'Suche',
 'Ban message'						=>	'Du wurdest aus diesem Forum gebannt.',
-'Ban message 2'						=>	'The ban expires at the end of',
+'Ban message 2'						=>	'Der Ban besteht bis',
 'Ban message 3'						=>	'Der Administrator oder Moderator, welcher dich gebannt hat, hinterließ folgende Nachricht:',
-'Ban message 4'						=>	'Please direct any inquiries to the forum administrator at',
+'Ban message 4'						=>	'Bitte wende dich bei Fragen an den Forenadministrator über',
 'Never'								=>	'Niemals',
 'Today'								=>	'Heute',
 'Yesterday'							=>	'Gestern',
@@ -57,9 +57,9 @@ $lang = array(
 'Invalid email'						=>	'Die eingegebene Emailadresse ist inkorrekt.',
 'Required'							=>	'(Benötigt)',
 'required field'					=>	'ist ein benötigtes Feld in diesem Formular.', // For javascript form validation
-'Last post'							=>	'Letzter Post',
+'Last post'							=>	'Letzter Beitrag',
 'by'								=>	'von', // As in last post by some user
-'New posts'							=>	'Neue Posts', // The link that leads to the first new post
+'New posts'							=>	'Neue Beiträge', // The link that leads to the first new post
 'New posts info'					=>	'Gehe zum ersten neuen Beitrag in diesem Thema.', // The popup text for new posts links
 'Username'							=>	'Benutzername',
 'Password'							=>	'Passwort',
@@ -88,7 +88,7 @@ $lang = array(
 //
 
 'Title'								=>	'Rang',
-'Member'							=>	'Member',
+'Member'							=>	'Benutzer',
 'Moderator'							=>	'Moderator',
 'Administrator'						=>	'Administrator',
 'Banned'							=>	'Gebannt',
@@ -102,7 +102,7 @@ $lang = array(
 'BBCode error invalid nesting'		=>	'[%1$s] wurde geöffnet innerhalb [%2$s], das ist nicht erlaubt',
 'BBCode error invalid self-nesting'	=>	'[%s] wurde in sich selbst geöffnet, das ist nicht erlaubt',
 'BBCode error no closing tag'		=>	'[%1$s] wurde gefunden ohne ein passendes [/%1$s]',
-'BBCode error empty attribute'		=>	'[%s] tag hat keine Attribute',
+'BBCode error empty attribute'		=>	'[%s] Tag hat keine Attribute',
 'BBCode list size error'			=>	'Deine Liste ist zu lang, bitte mach sie kleiner!',
 
 // Stuff for the navigator (top of every page)
@@ -179,12 +179,12 @@ $lang = array(
 'RSS description'					=>	'Die Top Themen auf %s.',
 'RSS description topic'				=>	'Die Top Beiträge auf %s.',
 'RSS reply'							=>	'Re: ', // The topic subject will be appended to this string (to signify a reply)
-'RSS active topics feed'			=>	'RSS active topics feed',
-'Atom active topics feed'			=>	'Atom active topics feed',
-'RSS forum feed'					=>	'RSS forum feed',
-'Atom forum feed'					=>	'Atom forum feed',
-'RSS topic feed'					=>	'RSS topic feed',
-'Atom topic feed'					=>	'Atom topic feed',
+'RSS active topics feed'			=>	'RSS Feed aktiver Themen',
+'Atom active topics feed'			=>	'Atom Feed aktiver Themen',
+'RSS forum feed'					=>	'Foren RSS Feed',
+'Atom forum feed'					=>	'Foren Atom Feed',
+'RSS topic feed'					=>	'Themen RSS Feed',
+'Atom topic feed'					=>	'Themen Atom Feed',
 
 //
 // Admin related stuff in the header
@@ -209,41 +209,41 @@ $lang = array(
 // Language for installation
 //
 
-'Choose install language'		=>	'Choose the install script language',
-'Choose install language info'	=>	'The language used for this install script. The default language used for the board itself can be set below.',
-'Install language'				=>	'Install language',
-'Change language'				=>	'Change language',
-'Already installed'				=>	'It seems like ModernBB is already installed. You should go <a href="index.php">here</a> instead.',
+'Choose install language'		=>	'Wähle die Sprache für die Installation',
+'Choose install language info'	=>	'Die Sprache, welche für dieses Installationsskript benutzt wird. Die Standardsprache für das Board selbst kann weiter unten festgelegt werden.',
+'Install language'				=>	'Installationssprache',
+'Change language'				=>	'Sprache ändern',
+'Already installed'				=>	'Es scheint, als wäre ModernBB bereits installiert. Du solltest stattdesse <a href="index.php">hier</a> hin gehen.',
 'You are running error'			=>	'You are running %1$s version %2$s. ModernBB %3$s requires at least %1$s %4$s to run properly. You must upgrade your %1$s installation before you can continue.',
-'My ModernBB Forum'				=>	'My ModernBB Forum',
+'My ModernBB Forum'				=>	'Mein ModernBB Forum',
 'Description'					=>	'You can do anything',
-'Username 1'					=>	'Usernames must be at least 2 characters long.',
-'Username 2'					=>	'Usernames must not be more than 25 characters long.',
-'Username 3'					=>	'The username guest is reserved.',
-'Username 4'					=>	'Usernames may not be in the form of an IP address.',
-'Username 5'					=>	'Usernames may not contain all the characters \', " and [ or ] at once.',
-'Username 6'					=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses.',
-'Short password'				=>	'Passwords must be at least 6 characters long.',
-'Passwords not match'			=>	'Passwords do not match.',
+'Username 1'					=>	'Benutzernamen müssen mindestens 2 Zeichen lang sein.',
+'Username 2'					=>	'Benutzernamen dürfen nicht mehr als 25 Zeichen lang sein.',
+'Username 3'					=>	'Der Benutzername guest ist reserviert.', // <--- Wo ist das festgelegt?
+'Username 4'					=>	'Benutzernamen können nicht die Form einer IP-Adresse haben.',
+'Username 5'					=>	'Benutzernamen können die Zeichen \', " und [ oder ] nicht gleichzeitig beinhalten.',
+'Username 6'					=>	'Benutzernamen können keine Formatierungs-Tags (BBCode) beinhalten, welche das Forum nutzt.',
+'Short password'				=>	'Passwörter müssen mindestens 6 Zeichen lang sein.',
+'Passwords not match'			=>	'Passwörter stimmen nicht überein.',
 'Wrong email'					=>	'The administrator email address you entered is invalid.',
 'No board title'				=>	'You must enter a board title.',
 'Error default language'		=>	'The default language chosen doesn\'t seem to exist.',
 'Error default style'			=>	'The default style chosen doesn\'t seem to exist.',
 'No DB extensions'				=>	'PHP needs to have support for either MySQL or SQLite to run ModernBB to be installed. Non is available, through.',
-'Administrator username'		=>	'Username',
+'Administrator username'		=>	'Benutzername',
 'Administrator password 1'		=>	'Administrator password 1',
 'Administrator password 2'		=>	'Administrator password 2',
 'Administrator email'			=>	'Email',
-'Board title'					=>	'Board title',
+'Board title'					=>	'Board Titel',
 'Base URL'						=>	'No trailing slash',
 'Required field'				=>	'is a required field in this form.',
 'ModernBB Installation'			=>	'ModernBB Installation',
 'Install'						=>	'Install ModernBB %s',
 'Errors'						=>	'The following errors need to be corrected:',
-'Database setup'				=>	'Database setup',
-'Select database'				=>	'Select your database type',
+'Database setup'				=>	'Datenbank Setup',
+'Select database'				=>	'Wähle deinen Datenbanktyp',
 'Info 1'						=>	'What database do you want to use?',
-'Database type'					=>	'Type',
+'Database type'					=>	'Typ',
 'Info 2'						=>	'Where\'s the server?',
 'Info 3'						=>	'The database name',
 'Database server hostname'		=>	'Server hostname',
@@ -253,7 +253,7 @@ $lang = array(
 'Info 4'						=>	'Your database username',
 'Database password'				=>	'Password',
 'Info 5'						=>	'Set for more ModernBB installation in this database',
-'Table prefix'					=>	'Table prefix',
+'Table prefix'					=>	'Tabellen Prefix',
 'Administration setup'			=>	'Administration setup',
 'Info 6'						=>	'2 to 25 characters long',
 'Info 7'						=>	'At least 6 characters long',
@@ -261,19 +261,19 @@ $lang = array(
 'Board setup'					=>	'Board setup',
 'Board description'				=>	'Board description',
 'Appearance'					=>	'Appearance',
-'Default language'				=>	'Default language',
+'Default language'				=>	'Standard Sprache',
 'Default style'					=>	'Default style',
-'Start install'					=>	'Start install',
+'Start install'					=>	'Installation starten',
 'DB type not valid'				=>	'\'%s\' is not a valid database type',
 'Table prefix error'			=>	'The table prefix \'%s\' contains illegal characters or is too long. The prefix may contain the letters a to z, any numbers and the underscore character. They must however not start with a number. The maximum length is 40 characters. Please choose a different prefix',
 'Prefix reserved'				=>	'The table prefix \'sqlite_\' is reserved for use by the SQLite engine. Please choose a different prefix',
 'Existing table error'			=>	'A table called \'%susers\' is already present in the database \'%s\'. This could mean that ModernBB is already installed or that another piece of software is installed and is occupying one or more of the table names ModernBB requires. If you want to install multiple copies of ModernBB in the same database, you must choose a different table prefix',
 'InnoDB off'					=>	'InnoDB does not seem to be enabled. Please choose a database layer that does not have InnoDB support, or enable InnoDB on your MySQL server',
-'Administrators'				=>	'Administrators',
-'Moderators'					=>	'Moderators',
-'Guests'						=>	'Guests',
-'Members'						=>	'Members',
-'New member'					=>	'New member',
+'Administrators'				=>	'Administratoren',
+'Moderators'					=>	'Moderatoren',
+'Guests'						=>	'Gäste',
+'Members'						=>	'Benutzer',
+'New member'					=>	'Neuer Benutzer',
 'Maintenance message'			=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
 'Alert cache'					=>	'<strong>The cache directory is currently not writable!</strong> In order for ModernBB to function properly, the directory <em>%s</em> must be writable by PHP. Use chmod to set the appropriate directory permissions. If in doubt, chmod to 0777.',
 'Alert avatar'					=>	'<strong>The avatar directory is currently not writable!</strong> If you want users to be able to upload their own avatar images you must see to it that the directory <em>%s</em> is writable by PHP. You can later choose to save avatar images in a different directory (see Admin/Options). Use chmod to set the appropriate directory permissions. If in doubt, chmod to 0777.',
@@ -295,7 +295,7 @@ $lang = array(
 'No update error'				=>	'Your forum is already as up-to-date as this script can make it',
 
 'Start update'					=>	'Starte Aktualisierung',
-'Correct errors'				=>	'Die folgenden Fehler müssen korrigiert werden:',
+'Correct errors'				=>	'Die folgenden Fehler müssen behoben werden:',
 'Successfully updated'			=>	'Deine Forendatenbank wurde erfolgreich aktualisiert. Du möchtest vielleicht %s.',
 'go to index'					=>	'zurück zum Forumindex',
 
@@ -323,7 +323,7 @@ $lang = array(
 // Language for help.php
 //
 
-'produces'				=>	'produziert',
+'produces'				=>	'wird zu',
 
 'BBCode info'			=>	'BBCode is a collection of tags that are used to change the look of text in this forum. Below you can find all the available BBCodes and how to use them. Administrators have the ability to disable BBCode. You can tell if BBCode is disabled whenever you post a message or edit your signature.',
 
@@ -337,8 +337,8 @@ $lang = array(
 'Blue text'				=>	'Blauer Text',
 'Heading text'			=>	'Überschrift',
 'Inserted text'			=>	'Inserted text',
-'Sub text'				=>	'Subscript text',
-'Sup text'				=>	'Superscript text',
+'Sub text'				=>	'Unterstellter Text',
+'Sup text'				=>	'Überstellter Text',
 
 'Multimedia'			=>  'Multimedia',
 'Links info'			=>	'You can create links to other documents or to email addresses using the following tags:',
@@ -446,7 +446,7 @@ $lang = array(
 'Request pass'				=>	'Neues Passwort anfordern',
 'Remember me'				=>	'An mich erinnern',
 'New password errors'		=>	'Passwort-Anforderung fehlgeschlagen',
-'New passworderrors info'	=>	'Die folgenden Fehler müssen korrigiert werden, bevor ein neues Passwort gesendet werden kann:',
+'New passworderrors info'	=>	'Die folgenden Fehler müssen behoben werden, bevor ein neues Passwort gesendet werden kann:',
 
 'Forget mail'				=>	'An email has been sent to the specified address with instructions on how to change your password. If it does not arrive you can contact the forum administrator at',
 'Password request flood'	=>  'This account has already requested a password reset in the past hour. Please wait %s minutes before requesting a new password again.',
@@ -510,7 +510,7 @@ $lang = array(
 // Split multiple posts in topic
 //
 
-'Split posts'					=>	'Splitte Beiträge',
+'Split posts'					=>	'Beiträge splitten',
 
 //
 // Delete multiple posts in topic
@@ -620,7 +620,7 @@ $lang = array(
 'Pass key bad'					=>	'The specified password activation key was incorrect or has expired. Please re-request a new password. If that fails, contact the forum administrator at',
 'Pass updated'					=>	'Your password has been updated. You can now login with your new password.',
 'Wrong pass'					=>	'Das alte Passwort ist falsch.',
-'Change pass'					=>	'Ändere Passwort',
+'Change pass'					=>	'Passwort ändern',
 'Old pass'						=>	'Altes Passwort',
 'New pass'						=>	'Neues Passwort',
 'Confirm new pass'				=>	'Bestätige neues Passwort',
@@ -709,7 +709,7 @@ $lang = array(
 // Administration stuff
 //
 
-'Group membership legend'		=>	'Choose user group',
+'Group membership legend'		=>	'Benutzergruppe wählen',
 'Save'							=>	'Speichern',
 'Set mods legend'				=>	'Set moderator access',
 'Moderator in info'				=>	'Choose which forums this user should be allowed to moderate. Note: This only applies to moderators. Administrators always have full permissions in all forums.',
@@ -741,7 +741,7 @@ $lang = array(
 
 'Registration errors'		=>	'Registration errors',
 'Username censor'			=>	'The username you entered contains one or more censored words. Please choose a different username.',
-'Username dupe 1'			=>	'Someone is already registered with the username',
+'Username dupe 1'			=>	'Es existiert bereits ein Benutzer mit diesem Namen.',
 'Username dupe 2'			=>	'The username you entered is too similar. The username must differ from that by at least one alphanumerical character (a-z or 0-9). Please choose a different username.',
 'Email not match'			=>	'Email addresses do not match.',
 
@@ -932,40 +932,40 @@ $lang = array(
 //
 
 'Must enter word message'	=>	'You must enter a word to censor.',
-'Add word subhead'			=>	'Add word',
+'Add word subhead'			=>	'Wort hinzufügen',
 'Add word info'				=>	'Enter a word that you want to censor and the replacement text for this word. Wildcards are accepted (i.e. *some* would match somewhere and lonesome). Censor words also affect usernames. New users will not be able to register with usernames containing any censored words. The search is case insensitive.',
 'Censoring enabled'			=>	'<strong>Censoring is enabled in %s.</strong>',
 'Censoring disabled'		=>	'<strong>Censoring is disabled in %s.</strong>',
-'Censored word label'		=>	'Censored word',
+'Censored word label'		=>	'Zensiertes Wort',
 'Replacement label'			=>	'Replacement word(s)',
-'Edit remove words'			=>	'Edit or remove words',
+'Edit remove words'			=>	'Wörter bearbeiten oder entfernen',
 'No words in list'			=>	'No censor words in list.',
 
 //
 // Language fox database.php
 //
 
-'Backup options'		=>	'Backup options',
-'Backup type'			=>	'Backup type',
-'Full'					=>	'Full',
-'Structure only'		=>	'Structure only',
-'Data only'				=>	'Data only',
-'Gzip compression'		=>	'Gzip compression',
-'Start backup'			=>	'Start backup',
+'Backup options'		=>	'Backup Optionen',
+'Backup type'			=>	'Backup Typ',
+'Full'					=>	'Voll',
+'Structure only'		=>	'Nur die Struktur',
+'Data only'				=>	'Nur die Daten',
+'Gzip compression'		=>	'Gzip Kompression',
+'Start backup'			=>	'Backup starten',
 
 'Backup info 1'			=>	'If your server supports it, you may also gzip-compress the file to reduce its size.',
 
 'Restore complete'		=>	'Restore complete',
-'Restore options'		=>	'Restore options',
-'Start restore'			=>	'Start restore',
+'Restore options'		=>	'Wiederherstellungsoptionen',
+'Start restore'			=>	'Wiederherstellung starten',
 
 'Restore info 1'		=>	'This will perform a full restore of all ModernBB tables from a saved file. If your server supports it, you may upload a gzip-compressed text file and it will automatically be decompressed. This will overwrite any existing data. The restore may take a long time to process, so please do not move from this page until it is complete.',
 
 'Warning'				=>	'Warning: critical features',
 
-'Additional functions'	=>	'Additional functions',
-'Repair all tables'		=>	'Repair all tables',
-'Optimise all tables'	=>	'Optimise all tables',
+'Additional functions'	=>	'Zusätzliche Funktionen',
+'Repair all tables'		=>	'Alle Tabellen reparieren',
+'Optimise all tables'	=>	'Alle Tabellen optimieren',
 
 'Additional info 1'		=>	'Additional features to help run a database, optimise and repair both do what they say.',
 
@@ -1037,7 +1037,7 @@ $lang = array(
 // Language for email.php
 //
 
-'Contact head'						=>	'Contact settings',
+'Contact head'						=>	'Kontakt Einstellungen',
 'Admin e-mail label'				=>	'Admin email',
 'Admin e-mail help'					=>	'The admins email',
 'Webmaster e-mail label'			=>	'Webmaster email',
@@ -1088,8 +1088,8 @@ $lang = array(
 // Language for forums.php
 //
 
-'Post must be integer message'	=>	'Position must be a positive integer value.',
-'New forum'						=>	'New forum',
+'Post must be integer message'	=>	'Die Position muss eine positive ganze Zahl sein.',
+'New forum'						=>	'Neues Forum',
 
 //
 // Entry page
@@ -1190,21 +1190,21 @@ $lang = array(
 // Language used in index.php and update.php for Backstage
 //
 
-'ModernBB intro'					=>	'Welcome to ModernBB',
+'ModernBB intro'					=>	'Willkommen auf ModernBB',
 'Backup head'						=>	'Back-up',
 'Backup info'						=>	'Create new database backup.',
 'Backup button'						=>	'Create new backup',
 'New reports head'					=>	'New reports',
-'Statistics head'					=>	'Statistics',
+'Statistics head'					=>	'Statistiken',
 'Updates'							=>	'Updates',
 'View all'							=>	'View all',
 'posts'								=>	'Beiträge',
-'replies'							=>	'replies',
+'replies'							=>	'Antworten',
 'reply'								=>	'reply',
 'topics'							=>	'Themen',
 'views'								=>	'views',
 'view'								=>	'view',
-'users'								=>	'users',
+'users'								=>	'Benutzer',
 
 'Not available'						=>	'Nicht verfügbar',
 'NA'								=>	'N/A',
@@ -1227,14 +1227,14 @@ $lang = array(
 'Hard reset'						=>	'Hard reset',
 'Reset config'						=>	'Reset config.php',
 'Hard reset help'					=>	'The button below will remove the config.php file and database, this will cause the install to start so you can install ModernBB again. You will lose all your data. This can\'t be undone. Be sure you made a back-up before doing this.',
-'Reset'								=>	'Reset',
+'Reset'								=>	'Zurücksetzen',
 
 //
 // Reports
 //
 
 'Date and time'						=>	'Datum und Zeit',
-'No new reports'					=>	'There are no new reports.',
+'No new reports'					=>	'Es gibt keine neuen Meldungen.',
 
 //
 // Language for maintenance.php
@@ -1295,12 +1295,12 @@ $lang = array(
 //
 
 'Essentials subhead'				=>	'Essentials',
-'Board desc help'					=>	'What\'s this board about?',
+'Board desc help'					=>	'Worum geht es in diesem Board?',
 'Base URL label'					=>	'Board URL',
 'Base URL problem'					=>  'Your installation does not support automatic conversion of internationalized domain names. As your base URL contains special characters, you <strong>must</strong> use an online converter.',
-'Timezone label'					=>	'Default time zone',
+'Timezone label'					=>	'Standard Zeitzone',
 'DST help'							=>	'Advance time by 1 hour for daylight saving.',
-'Language help'						=>	'The default language',
+'Language help'						=>	'Die Standardsprache',
 
 //
 // Essentials section timezone options
@@ -1321,7 +1321,7 @@ $lang = array(
 'UTC-03:00'							=>	'(UTC-03:00) Amazon, Central Greenland',
 'UTC-02:00'							=>	'(UTC-02:00) Mid-Atlantic',
 'UTC-01:00'							=>	'(UTC-01:00) Azores, Cape Verde, Eastern Greenland',
-'UTC'								=>	'(UTC) Western European, Greenwich',
+'UTC'								=>	'(UTC) Westeuropa, Greenwich',
 'UTC+01:00'							=>	'(UTC+01:00) Central European, West African',
 'UTC+02:00'							=>	'(UTC+02:00) Eastern European, Central African',
 'UTC+03:00'							=>	'(UTC+03:00) Eastern African',
@@ -1367,7 +1367,7 @@ $lang = array(
 'Feed subhead'						=>	'Syndication',
 'Default feed label'				=>	'Default feed type',
 'Default feed help'					=>	'Select a feed',
-'None'								=>	'None',
+'None'								=>	'Keine',
 'RSS'								=>	'RSS',
 'Atom'								=>	'Atom',
 'Feed TTL label'					=>	'Duration to cache feeds',
@@ -1380,8 +1380,8 @@ $lang = array(
 //
 
 'Reporting method label'			=>	'Reporting method',
-'Internal'							=>	'Internal',
-'Both'								=>	'Both',
+'Internal'							=>	'Intern',
+'Both'								=>	'Beides',
 'Reporting method help'				=>	'How should we handle reports?',
 'Mailing list label'				=>	'Mailing list',
 'Mailing list help'					=>	'A comma separated list of subscribers who get e-mails when new reports are made',
@@ -1391,13 +1391,13 @@ $lang = array(
 //
 
 'Avatars subhead'					=>	'Avatare',
-'Use avatars label'					=>	'Use avatars',
-'Use avatars help'					=>	'Enable so users can upload avatars.',
+'Use avatars label'					=>	'Avatare benutzen',
+'Use avatars help'					=>	'Aktivieren, damit Benutzer Avatare hochladen können.',
 'Upload directory label'			=>	'Upload directory',
 'Upload directory help'				=>	'Where avatars will be stored relative to ModernBBs root, write permission required',
-'Max width label'					=>	'Max width',
-'Max height label'					=>	'Max height',
-'Max size label'					=>	'Max size',
+'Max width label'					=>	'Maximale Breite',
+'Max height label'					=>	'Maximale Höhe',
+'Max size label'					=>	'Maximale Größe',
 
 //
 // Registration Section
@@ -1424,7 +1424,7 @@ $lang = array(
 //
 
 'Announcements'						=>	'Ankündigungen',
-'Display announcement help'			=>	'Enable this to display the below message in the board.',
+'Display announcement help'			=>	'Aktivieren, um die Nachricht darunter im Board anzuzeigen.',
 
 //
 // Maintenance Section
@@ -1434,7 +1434,7 @@ $lang = array(
 'Maintenance message help'			=>	'The message to tell users about the maintenance',
 'Cache'								=>	'Cache',
 'Cache info'						=>	'Remove all cache files so the database has to return up-to-date values',
-'Clear cache'						=>	'Clear cache',
+'Clear cache'						=>	'Cache leeren',
 
 //
 // Language for permissions.php
@@ -1447,7 +1447,7 @@ $lang = array(
 'All caps message help'		=>	'Allow a message to contain only capital letters.',
 'All caps subject help'		=>	'Allow a subject to contain only capital letters.',
 'Require e-mail help'		=>	'Require guests to supply an email address when posting.',
-'Signatures subhead'		=>	'Signatures',
+'Signatures subhead'		=>	'Signaturen',
 'BBCode sigs help'			=>	'Allow BBCode in user signatures.',
 'Image tag sigs help'		=>	'Allow the BBCode [img] tag in user signatures (not recommended).',
 'All caps sigs help'		=>	'Allow a signature to contain only capital letters.',
@@ -1464,23 +1464,23 @@ $lang = array(
 
 'Must be integer message'	=>	'Minimum posts must be a positive integer value.',
 'Dupe min posts message'	=>	'There is already a rank with a minimun posts value of %s.',
-'Add rank subhead'			=>	'Add rank',
+'Add rank subhead'			=>	'Rang hinzufügen',
 'Ranks disabled'			=>	'<strong>User ranks is disabled in %s.</strong>',
-'Rank title label'			=>	'Rank title',
-'Minimum posts label'		=>	'Minimum posts',
+'Rank title label'			=>	'Rangtitel',
+'Minimum posts label'		=>	'Minimum an Beiträgen',
 'Edit remove subhead'		=>	'Edit/remove ranks',
-'No ranks in list'			=>	'No ranks in list',
+'No ranks in list'			=>	'Keine Ränge in der Liste',
 
 //
 // Language for reports.php
 //
 
 'Deleted user'				=>	'Deleted user',
-'Deleted'					=>	'Deleted',
+'Deleted'					=>	'Gelöscht',
 'Post ID'					=>	'Post #%s',
 'Reported by'				=>	'Reported by',
 'Actions'					=>	'Actions',
-'Zap'						=>	'Mark as read',
+'Zap'						=>	'Als gelesen markieren',
 'Last 10 head'				=>	'10 last read reports',
 'Readed by'					=>	'Marked as read by',
 'No zapped reports'			=>	'There are no read reports.',
@@ -1490,11 +1490,11 @@ $lang = array(
 //
 
 'PHPinfo disabled message'			=>	'The PHP function phpinfo() has been disabled on this server.',
-'Server statistics head'			=>	'Server statistics',
+'Server statistics head'			=>	'Server Statistiken',
 'Server load label'					=>	'Server load',
 'Server load data'					=>	'%s - %s user(s) online',
-'Environment label'					=>	'Environment',
-'Environment data OS'				=>	'Operating system: %s',
+'Environment label'					=>	'Umgebung',
+'Environment data OS'				=>	'Betriebssystem: %s',
 'Show info'							=>	'Show info',
 'Environment data version'			=>	'PHP: %s - %s',
 'Environment data acc'				=>	'Accelerator: %s',
@@ -1510,9 +1510,9 @@ $lang = array(
 'eAccelerator link'					=>	'www.eaccelerator.net/',
 'XCache'							=>	'XCache',
 'XCache link'						=>	'xcache.lighttpd.net/',
-'Database label'					=>	'Database',
+'Database label'					=>	'Datenbank',
 'Database data rows'				=>	'Rows: %s',
-'Database data size'				=>	'Size: %s',
+'Database data size'				=>	'Größe: %s',
 
 //
 // Language for users.php
@@ -1585,39 +1585,39 @@ $lang = array(
 // Main menu
 //
 
-'Content'				=>	'Content',
-'Forums'				=>	'Forums',
-'Forum settings'		=>	'Forum settings',
-'Categories'			=>	'Categories',
+'Content'				=>	'Inhalt',
+'Forums'				=>	'Forumen',
+'Forum settings'		=>	'Foreneinstellungen',
+'Categories'			=>	'KAtegorien',
 'Board'					=>	'Board',
-'Board structure'		=>	'Board structure',
-'Censoring'				=>	'Censoring',
-'Reports'				=>	'Reports',
-'Users'					=>	'Users',
-'Ranks'					=>	'Ranks',
-'Groups'				=>	'Groups',
+'Board structure'		=>	'Boardstruktur',
+'Censoring'				=>	'Zensur',
+'Reports'				=>	'Meldungen',
+'Users'					=>	'Benutzer',
+'Ranks'					=>	'Ränge',
+'Groups'				=>	'Gruppen',
 'Permissions'			=>	'Permissions',
 'Bans'					=>	'Bans',
-'Settings'				=>	'Settings',
+'Settings'				=>	'Einstellungen',
 'Global'				=>	'Global',
-'Registration'			=>	'Registration',
+'Registration'			=>	'Registrierung',
 'Email'					=>	'Email',
-'Database'				=>	'Database management',
-'Backstage settings'	=>	'Backstage settings',
-'Extensions'			=>	'Extensions',
+'Database'				=>	'Datenbankmanagement',
+'Backstage settings'	=>	'Backstage Einstellungen',
+'Extensions'			=>	'Erweiterungen',
 
 //
 // Others
 //
 
 'Prune'					=>	'Prune',
-'Server statistics'		=>  'Server statistics',
+'Server statistics'		=>  'Server Statistiken',
 
 //
 // Update service
 //
 
-'Available'				=>	'An update, ModernBB v%s, is available',
+'Available'				=>	'Ein Update, ModernBB v%s, ist verfügbar',
 'Development'			=>	'You are running version %s, the latest stable release is version %s.',
 'Download'				=>	'Download v%s',
 'Changelog'				=>	'Changelog',
