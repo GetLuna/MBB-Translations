@@ -99,7 +99,7 @@ $lang = array(
 //
 
 'BBCode error no opening tag'		=>	'[/%1$s] wurde gefunden ohne ein passendes [%1$s]',
-'BBCode error invalid nesting'		=>	'[%1$s] wurde geöffnet innerhalb [%2$s], das ist nicht erlaubt',
+'BBCode error invalid nesting'		=>	'[%1$s] wurde innerhalb von [%2$s] geöffnet, das ist nicht erlaubt',
 'BBCode error invalid self-nesting'	=>	'[%s] wurde in sich selbst geöffnet, das ist nicht erlaubt',
 'BBCode error no closing tag'		=>	'[%1$s] wurde gefunden ohne ein passendes [/%1$s]',
 'BBCode error empty attribute'		=>	'[%s] Tag hat keine Attribute',
