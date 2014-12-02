@@ -691,7 +691,8 @@ $lang = array(
 'Sig preview'					=>	'Vorschau der derzeitigen Signatur:',
 'No sig'						=>	'Derzeit ist keine Signatur für dieses Profil gespeichert.',
 'Signature quote/code/list/h'	=>	'The quote, code, list, and heading BBCodes are not allowed in signatures.',
-'Posts per page'				=>	'Beiträge',
+'Posts per page'				=>	'Beiträge pro Seite',
+'Topics per page'				=>	'Themen pro Seite',
 'Leave blank'					=>	'Freilassen, um den Standardrang zu verwenden',
 'Notify full'					=>	'Hinweisemails zu Abonnements sollen eine Textversion des neuen Beitrages enthalten.',
 'Auto notify full'				=>	'Automatisch jedes Thema, in welchem du Beiträge verfasst hast, abonnieren.',
@@ -1184,7 +1185,6 @@ $lang = array(
 'Report flood help'				=>	'Time users have to wait between reports',
 'Moderator info'				=>	'Please note that in order for a user to have moderator abilities, they must be assigned to moderate one or more forums. This is done via the user administration page of the user\'s profile.',
 'seconds'						=>	'Sekunden',
-'pixels'						=>	'Pixel',
 
 //
 // Language used in index.php and update.php for Backstage
@@ -1211,6 +1211,8 @@ $lang = array(
 'About head'						=>	'Über ModernBB',
 'ModernBB version label'			=>	'ModernBB version',
 'ModernBB version data'				=>	'ModernBB version ',
+'ModernBB core label'				=>	'ModernBB core',
+'ModernBB core data'				=>	'ModernBB core ',
 'Server statistics label'			=>	'Server statistics',
 'View server statistics'			=>	'View server statistics',
 
